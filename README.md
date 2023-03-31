@@ -1,1 +1,0 @@
-# computingprojects.org
