@@ -1,0 +1,5 @@
+.navbar{
+    position: absolute;
+    z-index: 2;
+    justify-content: space-around;
+}
