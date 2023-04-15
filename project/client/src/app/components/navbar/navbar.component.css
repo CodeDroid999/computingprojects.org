@@ -11,7 +11,7 @@
         display: block;
     }
 
-    .navbar .nav-item:hover {
+    .navbar .dropdown-toggle:hover {
         transform: scale(1.1);
         /*text-decoration: underline;*/
     }
@@ -24,9 +24,28 @@
 .btn {
     position: absolute;
     right: 10px;
+    border-radius: 24px;
 }
 
-.navbrand-scrolled {
-    background-color: #ffff;
-    color: #0000ff;
+
+.header_change{
+    background-color: rgb(250, 247, 247);
+    color:#0000ff;
 }
+.button_change{
+    background-color: rgb(230, 11, 11);
+    color:white;
+    border-radius: 24px;;
+}
+
+.header_change a{
+    color:#0000ff;
+}
+
+.collapse{
+    font-weight:bold;
+    color:#0000ff;
+    text-decoration:none;
+    font-size:16px;
+}
+
