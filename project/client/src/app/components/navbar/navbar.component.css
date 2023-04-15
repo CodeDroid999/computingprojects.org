@@ -1,9 +1,32 @@
-
-/* ============ desktop view ============ */
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
-/* ============ desktop view .end// ============ */
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #0000ff;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item:hover {
+        transform: scale(1.1);
+        /*text-decoration: underline;*/
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+.btn {
+    position: absolute;
+    right: 10px;
+}
+
+.navbrand-scrolled {
+    background-color: #ffff;
+    color: #0000ff;
+}
