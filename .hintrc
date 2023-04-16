@@ -8,6 +8,20 @@
       {
         "list": "off"
       }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter"
+        ]
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
+      }
     ]
   }
 }
