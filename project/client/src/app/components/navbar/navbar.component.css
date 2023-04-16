@@ -31,7 +31,7 @@
 .navbar-brand{
     font-size: 1.2rem;
     font-weight: 600;
-    
+
 }
 
 .header_change{
@@ -39,9 +39,13 @@
     color:#0000ff;
 }
 .button_change{
-    background-color: rgb(230, 11, 11);
+    background-color: rgba(254, 10, 10, 0.893);
     color:white;
     border-radius: 24px;;
+}
+
+.brand_change{
+    color:black
 }
 
 .header_change a{
