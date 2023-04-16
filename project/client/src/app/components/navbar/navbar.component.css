@@ -4,7 +4,7 @@
     }
 
     .navbar .nav-item:hover .nav-link {
-        color: #0000ff;
+        color: #f2f2f3;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
@@ -21,12 +21,18 @@
     }
 }
 
+
 .btn {
     position: absolute;
     right: 10px;
     border-radius: 24px;
+    color:rgb(4, 4, 48)
 }
-
+.navbar-brand{
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
 
 .header_change{
     background-color: rgb(250, 247, 247);
