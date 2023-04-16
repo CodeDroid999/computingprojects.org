@@ -40,3 +40,15 @@
 .btn{
     border-radius: 24px;
 }
+
+
+
+
+
+hr {
+    width: 175px;
+    height: 3px;
+    border: 1px solid rgb(117, 31, 3);
+    background-color: rgb(159, 72, 5);
+    display: block;
+  }
