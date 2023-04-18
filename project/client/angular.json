@@ -25,7 +25,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "project/client/node_modules/aos/dist/aos.css"
             ],
             "scripts": []
           },
@@ -87,9 +88,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "client/node_modules/aos/dist/aos.css"
             ],
-            "scripts": []
+            "scripts": [
+              "client/node_modules/aos/dist/aos.js"
+            ]
           }
         }
       }
