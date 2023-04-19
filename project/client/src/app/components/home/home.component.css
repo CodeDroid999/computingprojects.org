@@ -157,6 +157,10 @@ a{
     border-left: solid #ebebeb 1px;
     border-bottom: solid #ebebeb 1px;
 }
+.reason{
+    border: solid #1c096c 1px;
+   
+}
 
 .c-no{height:150px;}
 .grey-bg{background:#ebebeb;}
