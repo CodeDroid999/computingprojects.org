@@ -25,7 +25,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "project/client/node_modules/aos/dist/aos.css"
             ],
             "scripts": []
           },
@@ -35,7 +36,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "5000kb",
-                  "maximumError": "10mb"
+                  "maximumError": "1mb"
                 },
                 {
                   "type": "anyComponentStyle",
