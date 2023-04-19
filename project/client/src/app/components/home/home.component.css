@@ -165,7 +165,7 @@ a {
 }
 
 .reason {
-    border: solid #1c096c 1px;
+    border: solid #ededed 1px;
 
 }
 
@@ -207,6 +207,7 @@ a {
 
 
 .testimonial-sec {
+    height: 20rem;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
