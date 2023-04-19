@@ -151,6 +151,13 @@ a{
     color:white;
 }
 
+.counter-Txt{
+    margin-bottom: 1rem;
+    border-top: solid #ebebeb 1px;
+    border-left: solid #ebebeb 1px;
+    border-bottom: solid #ebebeb 1px;
+}
+
 .c-no{height:150px;}
 .grey-bg{background:#ebebeb;}
 .counter-Txt{text-align:center; font-size:20px; font-weight:bold; text-transform:uppercase; margin-top:20px;}
@@ -160,3 +167,4 @@ a{
 .counter-Txt{margin-top:35px;}
 .margin-bot-35{margin-bottom:35px;}
 }
+
