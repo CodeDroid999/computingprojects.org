@@ -1,4 +1,4 @@
-.footernav a{
+.footernav a, .rowfull a, .phone-contact a{
     text-decoration: none !important;
     padding-top: 1em;
     color: gray;
