@@ -1,0 +1,5 @@
+.footernav a{
+    text-decoration: none !important;
+    padding-top: 1em;
+    color: gray;
+}
