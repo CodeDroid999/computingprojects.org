@@ -68,10 +68,6 @@ hr {
     padding-top: 10px;
 }
 
-#flexRadioDefault1,
-#flexRadioDefault2 {
-    padding-left: 10px;
-}
 
 .background-radial-gradient {
     background-color: hsl(218, 41%, 15%);
