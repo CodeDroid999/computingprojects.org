@@ -59,13 +59,13 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 <a href="modules/AppModule.html" data-type="entity-link" >AppModule</a>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
-                                            'data-target="#components-links-module-AppModule-0b1919662c668c4603b916c643e7ec3fd79175a0637ccf8c6d84bfefe5412fd2db69a628a1bc9b2fdaf9866d917fcf47956af242cfad3d0fe533580194bfcc5a"' : 'data-target="#xs-components-links-module-AppModule-0b1919662c668c4603b916c643e7ec3fd79175a0637ccf8c6d84bfefe5412fd2db69a628a1bc9b2fdaf9866d917fcf47956af242cfad3d0fe533580194bfcc5a"' }>
+                                            'data-target="#components-links-module-AppModule-9fa79958c7dfabac352f989a8e46bfd46a1b43943e66fd4dd9f42e2e46b988a8a831a797f4741005d7179202945453bcd4c8a8e0f1d42feb1a4d722018389a94"' : 'data-target="#xs-components-links-module-AppModule-9fa79958c7dfabac352f989a8e46bfd46a1b43943e66fd4dd9f42e2e46b988a8a831a797f4741005d7179202945453bcd4c8a8e0f1d42feb1a4d722018389a94"' }>
                                             <span class="icon ion-md-cog"></span>
                                             <span>Components</span>
                                             <span class="icon ion-ios-arrow-down"></span>
                                         </div>
-                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-AppModule-0b1919662c668c4603b916c643e7ec3fd79175a0637ccf8c6d84bfefe5412fd2db69a628a1bc9b2fdaf9866d917fcf47956af242cfad3d0fe533580194bfcc5a"' :
-                                            'id="xs-components-links-module-AppModule-0b1919662c668c4603b916c643e7ec3fd79175a0637ccf8c6d84bfefe5412fd2db69a628a1bc9b2fdaf9866d917fcf47956af242cfad3d0fe533580194bfcc5a"' }>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-AppModule-9fa79958c7dfabac352f989a8e46bfd46a1b43943e66fd4dd9f42e2e46b988a8a831a797f4741005d7179202945453bcd4c8a8e0f1d42feb1a4d722018389a94"' :
+                                            'id="xs-components-links-module-AppModule-9fa79958c7dfabac352f989a8e46bfd46a1b43943e66fd4dd9f42e2e46b988a8a831a797f4741005d7179202945453bcd4c8a8e0f1d42feb1a4d722018389a94"' }>
                                             <li class="link">
                                                 <a href="components/AboutComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >AboutComponent</a>
                                             </li>
@@ -77,6 +77,9 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                             </li>
                                             <li class="link">
                                                 <a href="components/ContactComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >ContactComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/FooterComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >FooterComponent</a>
                                             </li>
                                             <li class="link">
                                                 <a href="components/HomeComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >HomeComponent</a>
