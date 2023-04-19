@@ -133,6 +133,8 @@ a {
 }
 
 .transform-sec,
+.brands-section,
+.consultation-sec,
 .counter-sec {
     background-color: #1d0566;
     color: white;
@@ -174,3 +176,8 @@ a {
     background-repeat: no-repeat;
     z-index: -10;
 }
+
+.brands{
+    border-top: solid 3px #ffff;
+}
+
