@@ -172,3 +172,11 @@ a{
 .margin-bot-35{margin-bottom:35px;}
 }
 
+
+
+.testimonial-sec{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+        z-index: -10;
+}
