@@ -3,15 +3,17 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    position:relative;
+    position: relative;
     z-index: 10;
 }
-.background{
+
+.background {
     height: 100vh;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    position:absolute;;
+    position: absolute;
+    ;
     z-index: -10;
 }
 
@@ -22,11 +24,12 @@
     font-weight: 600;
     align-items: center;
 }
-.carousel-inner {
+
+.cover-page .carousel-inner {
     background: linear-gradient(to bottom, #070707cc 0%, #00000083 100%);
 }
 
-.carousel {
+ .carousel {
     display: flex;
     justify-content: center;
     z-index: 1;
@@ -37,7 +40,7 @@
     overflow: hidden;
 }
 
-.btn{
+.btn {
     border-radius: 24px;
 }
 
@@ -51,12 +54,12 @@ hr {
     border: 1px solid rgb(117, 31, 3);
     background-color: rgb(159, 72, 5);
     display: block;
-  }
+}
 
 
 
 
-  .gradient-custom-3 {
+.gradient-custom-3 {
     /* fallback for old browsers */
     background: #84fab0;
 
@@ -127,9 +130,10 @@ hr {
     backdrop-filter: saturate(200%) blur(25px);
 }
 
-.card{
+.card {
     background-color: #ffffff00;
-    font-size: 1.2rem;;
+    font-size: 1.2rem;
+    ;
 }
 
 .card-img-top {
@@ -137,46 +141,74 @@ hr {
     height: 15vw;
     object-fit: cover;
 }
-.h4{
-    color:#1d0566;
+
+.h4 {
+    color: #1d0566;
 }
 
-a{
+a {
     text-decoration: none;
 }
-   
 
-.transform-sec,.counter-sec{
+
+.transform-sec,
+.counter-sec {
     background-color: #1d0566;
-    color:white;
+    color: white;
 }
 
-.counter-Txt{
+.counter-Txt {
     margin-bottom: 1rem;
     border-top: solid #ebebeb 1px;
     border-left: solid #ebebeb 1px;
     border-bottom: solid #ebebeb 1px;
 }
-.reason{
+
+.reason {
     border: solid #1c096c 1px;
-   
+
 }
 
-.c-no{height:150px;}
-.grey-bg{background:#ebebeb;}
-.counter-Txt{text-align:center; font-size:20px; font-weight:bold; text-transform:uppercase; margin-top:20px;}
-.counter-Txt span{display:block; font-size:36px}
-@media(min-width:320px) and (max-width:767px){ 
-.c-no{height:100%;}
-.counter-Txt{margin-top:35px;}
-.margin-bot-35{margin-bottom:35px;}
+.c-no {
+    height: 150px;
+}
+
+.grey-bg {
+    background: #ebebeb;
+}
+
+.counter-Txt {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.counter-Txt span {
+    display: block;
+    font-size: 36px
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    .c-no {
+        height: 100%;
+    }
+
+    .counter-Txt {
+        margin-top: 35px;
+    }
+
+    .margin-bot-35 {
+        margin-bottom: 35px;
+    }
 }
 
 
 
-.testimonial-sec{
+.testimonial-sec {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-        z-index: -10;
+    z-index: -10;
 }
