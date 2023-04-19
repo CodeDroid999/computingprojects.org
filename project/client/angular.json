@@ -88,11 +88,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "client/node_modules/aos/dist/aos.css"
+              "src/styles.css"
             ],
             "scripts": [
-              "client/node_modules/aos/dist/aos.js"
             ]
           }
         }
