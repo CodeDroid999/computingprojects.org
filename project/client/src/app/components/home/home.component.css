@@ -583,6 +583,7 @@ a {
   
   .card:hover .card-overlay {
     display: block;
+    color:#1c096c;
   }
   
   .card-overlay-content {
