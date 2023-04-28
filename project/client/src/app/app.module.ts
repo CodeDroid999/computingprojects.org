@@ -11,6 +11,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BlueNavComponent } from './components/blue-nav/blue-nav.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ContactComponent,
     AboutComponent,
     ServicesComponent,
-    FooterComponent
+    FooterComponent,
+    BlueNavComponent
   ],
   imports: [
     BrowserModule,
