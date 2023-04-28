@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-blue-nav',
@@ -17,7 +17,3 @@ export class BlueNavComponent {
     }
   }
 }
-function HostListener(arg0: string): (target: BlueNavComponent, propertyKey: "scrollFunction", descriptor: TypedPropertyDescriptor<() => void>) => void | TypedPropertyDescriptor<() => void> {
-  throw new Error('Function not implemented.');
-}
-
