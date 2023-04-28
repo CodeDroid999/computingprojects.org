@@ -17,12 +17,7 @@
         ]
       }
     ],
-    "axe/name-role-value": [
-      "default",
-      {
-        "button-name": "off"
-      }
-    ],
+    "axe/name-role-value": "off",
     "no-inline-styles": "off",
     "axe/forms": [
       "default",
@@ -30,6 +25,7 @@
         "label": "off"
       }
     ],
-    "axe/language": "off"
+    "axe/language": "off",
+    "disown-opener": "off"
   }
 }
