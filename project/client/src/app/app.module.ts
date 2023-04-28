@@ -12,6 +12,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BlueNavComponent } from './components/blue-nav/blue-nav.component';
+import { LatestThinkingComponent } from './components/latest-thinking/latest-thinking.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BlueNavComponent } from './components/blue-nav/blue-nav.component';
     AboutComponent,
     ServicesComponent,
     FooterComponent,
-    BlueNavComponent
+    BlueNavComponent,
+    LatestThinkingComponent
   ],
   imports: [
     BrowserModule,
