@@ -2,6 +2,38 @@ h1 {
     font-size: 5rem;
 }
 
+p {
+    color: rgb(3, 12, 61);
+    text-transform: uppercase;
+}
+
+.card{
+    margin:0px;
+    padding:0px;
+}
+.card-body img {
+    height: 5rem;
+}
+
+
+.industries-sec {
+    background-color: rgb(214, 213, 213);
+}
+
+h5 img :hover {
+    color: rgb(254, 254, 254);
+}
+
+.card :hover {
+    background-color: rgb(15, 16, 86);
+    color: white;
+}
+.card-text{
+    color:rgb(137, 137, 137);
+}
+.card-tittle{
+    color:rgb(8, 12, 52);
+}
 .line {
     height: 5px;
     border-width: 0;
@@ -14,6 +46,146 @@ h1 {
     position: fixed;
     z-index: -4;
 }
+
 header {
     background-color: linear-gradient(to left, #04102ccc 50%, #00000083 100%);
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.line {
+    height: 5px;
+    border-width: 0;
+    background-color: rgb(137, 5, 5)
+}
+
+
+.img-bg {
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -4;
+}
+
+header {
+    background-color: linear-gradient(to left, #04102ccc 50%, #00000083 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.art-intelligence {
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+* You can add global styles to this file,
+and also import other style files */ a,
+a:visited {
+    text-decoration: underline;
+}
+
+
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 10;
+}
+
+.background {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    ;
+    z-index: -10;
+}
+
+.carousel-item h1 {
+    margin: 0;
+    color: white;
+    font-size: 6rem;
+    font-weight: 600;
+    align-items: center;
+}
+
+.cover-page .carousel-inner {
+    background: linear-gradient(to bottom, #070707cc 0%, #00000083 100%);
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 10;
+}
+
+.background {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    ;
+    z-index: -10;
+}
+
+.carousel-item h1 {
+    margin: 0;
+    color: white;
+    font-size: 6rem;
+    font-weight: 600;
+    align-items: center;
+}
+
+.cover-page .carousel-inner {
+    background: linear-gradient(to bottom, #070707cc 0%, #00000083 100%);
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.btn {
+    border-radius: 24px;
+}
+
+.testimonial-sec {
+    height: 20rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -10;
 }

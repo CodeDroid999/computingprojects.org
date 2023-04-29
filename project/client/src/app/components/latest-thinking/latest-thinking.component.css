@@ -14,31 +14,34 @@ h1 {
     position: fixed;
     z-index: -4;
 }
+
 header {
     background-color: linear-gradient(to left, #04102ccc 50%, #00000083 100%);
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.art-intelligence{
+.art-intelligence {
     padding-left: 3rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-h2{
+
+h2 {
     text-transform: uppercase;
-    padding-top:1rem;
+    padding-top: 1rem;
 }
 
-* You can add global styles to this file, and also import other style files */
-a, a:visited {
+* You can add global styles to this file,
+and also import other style files */ a,
+a:visited {
     text-decoration: underline;
-  }
+}
 
 
-  .carousel-item {
+.carousel-item {
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -78,4 +81,58 @@ a, a:visited {
     min-width: 100%;
     height: 100%;
     overflow: hidden;
+}
+
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 10;
+}
+
+.background {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    ;
+    z-index: -10;
+}
+
+.carousel-item h1 {
+    margin: 0;
+    color: white;
+    font-size: 6rem;
+    font-weight: 600;
+    align-items: center;
+}
+
+.cover-page .carousel-inner {
+    background: linear-gradient(to bottom, #070707cc 0%, #00000083 100%);
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.btn {
+    border-radius: 24px;
+}
+
+.testimonial-sec {
+    height: 20rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -10;
 }
