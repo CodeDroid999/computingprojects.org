@@ -13,6 +13,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BlueNavComponent } from './components/blue-nav/blue-nav.component';
 import { LatestThinkingComponent } from './components/latest-thinking/latest-thinking.component';
+import { IndustriesComponent } from './components/industries/industries.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LatestThinkingComponent } from './components/latest-thinking/latest-thi
     ServicesComponent,
     FooterComponent,
     BlueNavComponent,
-    LatestThinkingComponent
+    LatestThinkingComponent,
+    IndustriesComponent
   ],
   imports: [
     BrowserModule,

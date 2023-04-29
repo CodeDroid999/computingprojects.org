@@ -1,0 +1,19 @@
+h1 {
+    font-size: 5rem;
+}
+
+.line {
+    height: 5px;
+    border-width: 0;
+    background-color: rgb(137, 5, 5)
+}
+
+
+.img-bg {
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -4;
+}
+header {
+    background-color: linear-gradient(to left, #04102ccc 50%, #00000083 100%);
+}
