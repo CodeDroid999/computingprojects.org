@@ -14,6 +14,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BlueNavComponent } from './components/blue-nav/blue-nav.component';
 import { LatestThinkingComponent } from './components/latest-thinking/latest-thinking.component';
 import { IndustriesComponent } from './components/industries/industries.component';
+import { SolutionsComponent } from './components/solutions/solutions.component';
+import { CorporateComponent } from './components/corporate/corporate.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { IndustriesComponent } from './components/industries/industries.componen
     FooterComponent,
     BlueNavComponent,
     LatestThinkingComponent,
-    IndustriesComponent
+    IndustriesComponent,
+    SolutionsComponent,
+    CorporateComponent
   ],
   imports: [
     BrowserModule,

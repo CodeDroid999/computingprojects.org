@@ -7,8 +7,12 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ServicesComponent } from './components/services/services.component';
 import { LatestThinkingComponent } from './components/latest-thinking/latest-thinking.component';
 import { IndustriesComponent } from './components/industries/industries.component';
+import { SolutionsComponent } from './components/solutions/solutions.component';
+import { CorporateComponent } from './components/corporate/corporate.component';
 
 const routes: Routes = [
+  {path: 'solutions', component: SolutionsComponent},
+  {path: 'corporate', component: CorporateComponent},
   {path: 'industries', component: IndustriesComponent},
   {path: 'latest-thinking', component: LatestThinkingComponent},
   { path: 'about-us', component: AboutComponent },
