@@ -10,8 +10,9 @@ import { IndustriesComponent } from './components/industries/industries.componen
 import { SolutionsComponent } from './components/solutions/solutions.component';
 import { CorporateComponent } from './components/corporate/corporate.component';
 
+
 const routes: Routes = [
-  {path: 'solutions', component: SolutionsComponent},
+  {path: 'component', component:SolutionsComponent},
   {path: 'corporate', component: CorporateComponent},
   {path: 'industries', component: IndustriesComponent},
   {path: 'latest-thinking', component: LatestThinkingComponent},
