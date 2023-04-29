@@ -12,7 +12,7 @@ import { CorporateComponent } from './components/corporate/corporate.component';
 
 
 const routes: Routes = [
-  {path: 'component', component:SolutionsComponent},
+   {path: 'solutions', component:SolutionsComponent},
   {path: 'corporate', component: CorporateComponent},
   {path: 'industries', component: IndustriesComponent},
   {path: 'latest-thinking', component: LatestThinkingComponent},
