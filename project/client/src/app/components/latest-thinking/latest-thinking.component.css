@@ -17,3 +17,17 @@ h1 {
 header {
     background-color: linear-gradient(to left, #04102ccc 50%, #00000083 100%);
 }
+
+a{
+    text-decoration: none;
+}
+
+.art-intelligence{
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+h2{
+    text-transform: uppercase;
+    padding-top:1rem;
+}
