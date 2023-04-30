@@ -1,0 +1,23 @@
+.reason {
+    border: solid #e4e4e6 1px;
+
+}
+.carousel-inner{
+    height:20rem;
+}
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 10;
+}
+.btn{
+    border-radius: 24px;
+}
+
+.btn:hover{
+    color:#a3a3a3;
+    background-color: rgba(169, 12, 12, 0.91);
+}

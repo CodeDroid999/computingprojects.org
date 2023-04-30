@@ -165,7 +165,7 @@ a {
 }
 
 .reason {
-    border: solid #1c096c 1px;
+    border: solid #e4e4e6 1px;
 
 }
 
@@ -213,8 +213,9 @@ a {
     z-index: -10;
 }
 
-a, a:visited {
+a:visited {
     text-decoration: underline;
+    color:#f6a207;
   }
 
   .carousel-item {
