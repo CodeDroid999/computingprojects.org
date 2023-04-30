@@ -29,7 +29,7 @@
     background: linear-gradient(to bottom, #070707cc 0%, #00000083 100%);
 }
 
- .carousel {
+.carousel {
     display: flex;
     justify-content: center;
     z-index: 1;
@@ -153,16 +153,15 @@ a {
 
 .transform-sec,
 .counter-sec {
-    background-color: #1d0566;
+    background-color: #050d4e;
     color: white;
 }
 
 .counter-Txt {
     margin-bottom: 1rem;
-    border-top: solid #ebebeb 1px;
     border-left: solid #ebebeb 1px;
-    border-bottom: solid #ebebeb 1px;
-}
+    border-right: solid #ebebeb 1px;
+   }
 
 .reason {
     border: solid #e4e4e6 1px;
@@ -215,10 +214,10 @@ a {
 
 a:visited {
     text-decoration: underline;
-    color:#f6a207;
-  }
+    color: #f6a207;
+}
 
-  .carousel-item {
+.carousel-item {
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -264,12 +263,10 @@ a:visited {
     border-radius: 24px;
 }
 
-hr {
-    width: 175px;
-    height: 3px;
-    border: 1px solid rgb(117, 31, 3);
-    background-color: rgb(159, 72, 5);
-    display: block;
+.hr {
+    height: 5px;
+    border-width: 0;
+    background-color: rgb(137, 5, 5)
 }
 
 .gradient-custom-3 {
@@ -393,12 +390,13 @@ a {
 }
 
 /* You can add global styles to this file, and also import other style files */
-a, a:visited {
+a,
+a:visited {
     text-decoration: underline;
-  }
+}
 
 
-  .carousel-item {
+.carousel-item {
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -580,14 +578,14 @@ a {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     display: none;
-  }
-  
-  .card:hover .card-overlay {
+}
+
+.card:hover .card-overlay {
     display: block;
-    color:#1c096c;
-  }
-  
-  .card-overlay-content {
+    color: #020a5e;
+}
+
+.card-overlay-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -595,4 +593,4 @@ a {
     text-align: center;
     color: #fff;
     z-index: 1;
-  }
+}
