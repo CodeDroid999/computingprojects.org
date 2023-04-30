@@ -2,6 +2,9 @@ h1 {
     font-size: 5rem;
     text-transform: uppercase;
 }
+h5,h6{
+    text-transform: uppercase;
+}
 
 .line {
     height: 5px;
@@ -34,4 +37,10 @@ button {
 button:hover {
     background-color: rgb(172, 12, 12);
     color: white;
+}
+.rounded-circle{
+    border: dashed gray 1px;
+}
+.badges{
+    background-color: #1b0b63;
 }
