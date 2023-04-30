@@ -17,3 +17,6 @@ h1 {
 header {
     background-color: linear-gradient(to left, #04102ccc 50%, #00000083 100%);
 }
+.success-matters{
+    background-color: rgb(215, 214, 214);
+}
