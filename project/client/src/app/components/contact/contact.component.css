@@ -2,3 +2,8 @@
     position: absolute;
     z-index: -4;
 }
+.line {
+    height: 5px;
+    border-width: 0;
+    background-color: rgb(137, 5, 5)
+}

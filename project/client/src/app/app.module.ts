@@ -16,6 +16,7 @@ import { LatestThinkingComponent } from './components/latest-thinking/latest-thi
 import { IndustriesComponent } from './components/industries/industries.component';
 import { SolutionsComponent } from './components/solutions/solutions.component';
 import { CorporateComponent } from './components/corporate/corporate.component';
+import { WhyUsComponent } from './components/why-us/why-us.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CorporateComponent } from './components/corporate/corporate.component';
     LatestThinkingComponent,
     IndustriesComponent,
     SolutionsComponent,
-    CorporateComponent
+    CorporateComponent,
+    WhyUsComponent
   ],
   imports: [
     BrowserModule,
