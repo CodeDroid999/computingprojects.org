@@ -14,9 +14,11 @@ import { AppDevelopmentComponent } from './components/app-development/app-develo
 import { SoftwareDevelopmentComponent } from './components/software-development/software-development.component';
 import { ItConsultingComponent } from './components/it-consulting/it-consulting.component';
 import { QualityAssuranceComponent } from './components/quality-assurance/quality-assurance.component';
+import { BigDataComponent } from './components/big-data/big-data.component';
 
 
 const routes: Routes = [
+  {path:'big-data-and-analytics', component: BigDataComponent},
   {path:'quality-assurance', component:QualityAssuranceComponent},
   {path: 'consulting' , component:ItConsultingComponent },
   { path: 'software-development', component: SoftwareDevelopmentComponent },

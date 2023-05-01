@@ -26,6 +26,7 @@ import { AppDevelopmentComponent } from './components/app-development/app-develo
 import { SoftwareDevelopmentComponent } from './components/software-development/software-development.component';
 import { ItConsultingComponent } from './components/it-consulting/it-consulting.component';
 import { QualityAssuranceComponent } from './components/quality-assurance/quality-assurance.component';
+import { BigDataComponent } from './components/big-data/big-data.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { QualityAssuranceComponent } from './components/quality-assurance/qualit
     AppDevelopmentComponent,
     SoftwareDevelopmentComponent,
     ItConsultingComponent,
-    QualityAssuranceComponent
+    QualityAssuranceComponent,
+    BigDataComponent
   ],
   imports: [
     BrowserModule,
