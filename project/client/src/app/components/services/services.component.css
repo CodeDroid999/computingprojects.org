@@ -44,3 +44,7 @@ button:hover {
 .badges{
     background-color: #1b0b63;
 }
+
+a{
+    text-decoration: none;
+}

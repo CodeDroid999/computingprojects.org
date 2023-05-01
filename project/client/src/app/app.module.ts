@@ -17,6 +17,8 @@ import { IndustriesComponent } from './components/industries/industries.componen
 import { SolutionsComponent } from './components/solutions/solutions.component';
 import { CorporateComponent } from './components/corporate/corporate.component';
 import { WhyUsComponent } from './components/why-us/why-us.component';
+import { ServicesSecComponent } from './components/services-sec/services-sec.component';
+import { BrandsSectionComponent } from './components/brands-section/brands-section.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { WhyUsComponent } from './components/why-us/why-us.component';
     IndustriesComponent,
     SolutionsComponent,
     CorporateComponent,
-    WhyUsComponent
+    WhyUsComponent,
+    ServicesSecComponent,
+    BrandsSectionComponent
   ],
   imports: [
     BrowserModule,
