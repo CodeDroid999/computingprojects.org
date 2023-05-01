@@ -27,6 +27,7 @@ import { SoftwareDevelopmentComponent } from './components/software-development/
 import { ItConsultingComponent } from './components/it-consulting/it-consulting.component';
 import { QualityAssuranceComponent } from './components/quality-assurance/quality-assurance.component';
 import { BigDataComponent } from './components/big-data/big-data.component';
+import { InternetOfThingsComponent } from './components/internet-of-things/internet-of-things.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { BigDataComponent } from './components/big-data/big-data.component';
     SoftwareDevelopmentComponent,
     ItConsultingComponent,
     QualityAssuranceComponent,
-    BigDataComponent
+    BigDataComponent,
+    InternetOfThingsComponent
   ],
   imports: [
     BrowserModule,
