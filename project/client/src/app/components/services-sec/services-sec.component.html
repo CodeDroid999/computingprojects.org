@@ -24,7 +24,7 @@
         <div class="row col-lg-7 col-sm-12 d-flex">
             <div class="row cols-sec listLink d-flex">
                 <div class="col col-lg-6">
-                    <a href="" title="Web Development">
+                    <a [routerLink]="['/web-development']" [queryParams]="{debug: true}" title="Web Development">
                         <img src="https://www.xicom.biz/images/icons/services/web-development.png" class="col-icon"
                             alt="Web Development">
                         <h3> Web Development </h3>
@@ -34,7 +34,7 @@
                     </a>
                 </div>
                 <div class="cols col-lg-6">
-                    <a href="" title="Mobile App Development">
+                    <a [routerLink]="['/mobile-app-development']" [queryParams]="{debug: true}" title="Mobile App Development">
                         <img src="https://www.xicom.biz/images/icons/services/mobile-app-development.png"
                             class="col-icon" alt="Mobile App Development">
                         <h3> Mobile App Development </h3>
@@ -44,7 +44,7 @@
                     </a>
                 </div>
                 <div class="cols col-lg-6">
-                    <a href="" title="Software Development">
+                    <a [routerLink]="['/software-development']" [queryParams]="{debug: true}" title="Software Development">
                         <img src="https://www.xicom.biz/images/icons/services/software-development.png" class="col-icon"
                             alt="Software Development">
                         <h3> Software Development </h3>

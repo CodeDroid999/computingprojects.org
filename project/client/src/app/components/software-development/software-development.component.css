@@ -1,0 +1,26 @@
+.background {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    ;
+    z-index: -10;
+}
+h1{
+    text-transform: uppercase;
+}
+h3{
+    color:rgba(227, 225, 225, 0.908);
+}
+.header {
+    background: linear-gradient(to bottom, #6c6a6ac9 0%, #666666d1 100%);
+}
+.technologies{
+    background-color: rgb(16, 16, 109);
+}
+.badges{
+    background-color: #1b0b63;
+}
+hr{
+    background-color: rgb(187, 31, 31);
+}

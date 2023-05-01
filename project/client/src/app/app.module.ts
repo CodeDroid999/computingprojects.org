@@ -22,6 +22,8 @@ import { BrandsSectionComponent } from './components/brands-section/brands-secti
 import { BadgesSecComponent } from './components/badges-sec/badges-sec.component';
 import { WebDevComponent } from './components/web-dev/web-dev.component';
 import { DevelopmentProcSecComponent } from './components/development-proc-sec/development-proc-sec.component';
+import { AppDevelopmentComponent } from './components/app-development/app-development.component';
+import { SoftwareDevelopmentComponent } from './components/software-development/software-development.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { DevelopmentProcSecComponent } from './components/development-proc-sec/d
     BrandsSectionComponent,
     BadgesSecComponent,
     WebDevComponent,
-    DevelopmentProcSecComponent
+    DevelopmentProcSecComponent,
+    AppDevelopmentComponent,
+    SoftwareDevelopmentComponent
   ],
   imports: [
     BrowserModule,

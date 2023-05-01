@@ -10,10 +10,14 @@ import { IndustriesComponent } from './components/industries/industries.componen
 import { SolutionsComponent } from './components/solutions/solutions.component';
 import { CorporateComponent } from './components/corporate/corporate.component';
 import { WebDevComponent } from './components/web-dev/web-dev.component';
+import { AppDevelopmentComponent } from './components/app-development/app-development.component';
+import { SoftwareDevelopmentComponent } from './components/software-development/software-development.component';
 
 
 const routes: Routes = [
-  {path:'web-development', component:WebDevComponent},
+  { path: 'software-development', component: SoftwareDevelopmentComponent },
+  { path: 'mobile-app-development', component: AppDevelopmentComponent },
+  { path: 'web-development', component: WebDevComponent },
   { path: 'solutions', component: SolutionsComponent },
   { path: 'corporate', component: CorporateComponent },
   { path: 'industries', component: IndustriesComponent },
