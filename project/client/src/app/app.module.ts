@@ -24,6 +24,8 @@ import { WebDevComponent } from './components/web-dev/web-dev.component';
 import { DevelopmentProcSecComponent } from './components/development-proc-sec/development-proc-sec.component';
 import { AppDevelopmentComponent } from './components/app-development/app-development.component';
 import { SoftwareDevelopmentComponent } from './components/software-development/software-development.component';
+import { ItConsultingComponent } from './components/it-consulting/it-consulting.component';
+import { QualityAssuranceComponent } from './components/quality-assurance/quality-assurance.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,9 @@ import { SoftwareDevelopmentComponent } from './components/software-development/
     WebDevComponent,
     DevelopmentProcSecComponent,
     AppDevelopmentComponent,
-    SoftwareDevelopmentComponent
+    SoftwareDevelopmentComponent,
+    ItConsultingComponent,
+    QualityAssuranceComponent
   ],
   imports: [
     BrowserModule,

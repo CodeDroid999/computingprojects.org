@@ -12,9 +12,13 @@ import { CorporateComponent } from './components/corporate/corporate.component';
 import { WebDevComponent } from './components/web-dev/web-dev.component';
 import { AppDevelopmentComponent } from './components/app-development/app-development.component';
 import { SoftwareDevelopmentComponent } from './components/software-development/software-development.component';
+import { ItConsultingComponent } from './components/it-consulting/it-consulting.component';
+import { QualityAssuranceComponent } from './components/quality-assurance/quality-assurance.component';
 
 
 const routes: Routes = [
+  {path:'quality-assurance', component:QualityAssuranceComponent},
+  {path: 'consulting' , component:ItConsultingComponent },
   { path: 'software-development', component: SoftwareDevelopmentComponent },
   { path: 'mobile-app-development', component: AppDevelopmentComponent },
   { path: 'web-development', component: WebDevComponent },
