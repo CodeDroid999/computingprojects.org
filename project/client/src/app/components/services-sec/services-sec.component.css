@@ -12,3 +12,9 @@ button:hover {
     background-color: rgb(172, 12, 12);
     color: white;
 }
+.text-left{
+    font-weight: 700;
+}
+h3{
+    color: hsla(249, 62%, 24%, 0.916);
+}

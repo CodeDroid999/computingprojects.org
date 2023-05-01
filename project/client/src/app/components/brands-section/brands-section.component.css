@@ -1,0 +1,14 @@
+a{
+    text-decoration: none;
+}
+button {
+    border-radius: 24px;
+    background-color: rgb(38, 136, 188);
+    color: white;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(172, 12, 12);
+    color: white;
+}
