@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
@@ -9,13 +9,15 @@ import { LatestThinkingComponent } from './components/latest-thinking/latest-thi
 import { IndustriesComponent } from './components/industries/industries.component';
 import { SolutionsComponent } from './components/solutions/solutions.component';
 import { CorporateComponent } from './components/corporate/corporate.component';
+import { WebDevComponent } from './components/web-dev/web-dev.component';
 
 
 const routes: Routes = [
-   {path: 'solutions', component:SolutionsComponent},
-  {path: 'corporate', component: CorporateComponent},
-  {path: 'industries', component: IndustriesComponent},
-  {path: 'latest-thinking', component: LatestThinkingComponent},
+  {path:'web-development', component:WebDevComponent},
+  { path: 'solutions', component: SolutionsComponent },
+  { path: 'corporate', component: CorporateComponent },
+  { path: 'industries', component: IndustriesComponent },
+  { path: 'latest-thinking', component: LatestThinkingComponent },
   { path: 'about-us', component: AboutComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'contact', component: ContactComponent },

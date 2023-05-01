@@ -2,6 +2,11 @@ h1 {
     font-size: 5rem;
 }
 
+h2 {
+    color: rgb(179, 178, 178);
+}
+
+
 .line {
     height: 5px;
     border-width: 0;
@@ -14,6 +19,7 @@ h1 {
     position: fixed;
     z-index: -4;
 }
+
 header {
     background-color: linear-gradient(to left, #04102ccc 50%, #00000083 100%);
 }

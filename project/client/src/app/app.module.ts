@@ -19,6 +19,9 @@ import { CorporateComponent } from './components/corporate/corporate.component';
 import { WhyUsComponent } from './components/why-us/why-us.component';
 import { ServicesSecComponent } from './components/services-sec/services-sec.component';
 import { BrandsSectionComponent } from './components/brands-section/brands-section.component';
+import { BadgesSecComponent } from './components/badges-sec/badges-sec.component';
+import { WebDevComponent } from './components/web-dev/web-dev.component';
+import { DevelopmentProcSecComponent } from './components/development-proc-sec/development-proc-sec.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { BrandsSectionComponent } from './components/brands-section/brands-secti
     CorporateComponent,
     WhyUsComponent,
     ServicesSecComponent,
-    BrandsSectionComponent
+    BrandsSectionComponent,
+    BadgesSecComponent,
+    WebDevComponent,
+    DevelopmentProcSecComponent
   ],
   imports: [
     BrowserModule,
