@@ -20,9 +20,11 @@ import { BlockchainComponent } from './components/blockchain/blockchain.componen
 import { ArtificialIntelligenceComponent } from './components/artificial-intelligence/artificial-intelligence.component';
 import { CloudComputingComponent } from './components/cloud-computing/cloud-computing.component';
 import { AutomotiveComponent } from './components/automotive/automotive.component';
+import { HealthcareComponent } from './components/healthcare/healthcare.component';
 
 
 const routes: Routes = [
+  {path:'healthcare', component: HealthcareComponent},
   {path:'automotive',component:AutomotiveComponent},
   {path:'cloud-computing', component:CloudComputingComponent},
   { path: 'artificial-intelligence', component: ArtificialIntelligenceComponent },
