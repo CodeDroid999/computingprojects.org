@@ -31,6 +31,7 @@ import { InternetOfThingsComponent } from './components/internet-of-things/inter
 import { BlockchainComponent } from './components/blockchain/blockchain.component';
 import { ArtificialIntelligenceComponent } from './components/artificial-intelligence/artificial-intelligence.component';
 import { CloudComputingComponent } from './components/cloud-computing/cloud-computing.component';
+import { AutomotiveComponent } from './components/automotive/automotive.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { CloudComputingComponent } from './components/cloud-computing/cloud-comp
     InternetOfThingsComponent,
     BlockchainComponent,
     ArtificialIntelligenceComponent,
-    CloudComputingComponent
+    CloudComputingComponent,
+    AutomotiveComponent
   ],
   imports: [
     BrowserModule,
