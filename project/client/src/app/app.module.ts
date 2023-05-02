@@ -40,6 +40,8 @@ import { RealEstateComponent } from './components/real-estate/real-estate.compon
 import { RetailAndCommerceComponent } from './components/retail-and-commerce/retail-and-commerce.component';
 import { LogisticsAndTransportationComponent } from './components/logistics-and-transportation/logistics-and-transportation.component';
 import { TravelAndTourismComponent } from './components/travel-and-tourism/travel-and-tourism.component';
+import { EducationAndElearningComponent } from './components/education-and-elearning/education-and-elearning.component';
+
 
 
 @NgModule({
@@ -81,7 +83,9 @@ import { TravelAndTourismComponent } from './components/travel-and-tourism/trave
     RealEstateComponent,
     RetailAndCommerceComponent,
     LogisticsAndTransportationComponent,
-    TravelAndTourismComponent
+    TravelAndTourismComponent,
+    EducationAndElearningComponent,
+    
   ],
   imports: [
     BrowserModule,

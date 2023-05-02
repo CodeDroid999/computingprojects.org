@@ -28,9 +28,11 @@ import { RetailAndCommerceComponent } from './components/retail-and-commerce/ret
 import { LogisticsAndTransportationComponent } from './components/logistics-and-transportation/logistics-and-transportation.component';
 import { BankingAndFinanceComponent } from './components/banking-and-finance/banking-and-finance.component';
 import { TravelAndTourismComponent } from './components/travel-and-tourism/travel-and-tourism.component';
+import { EducationAndElearningComponent } from './components/education-and-elearning/education-and-elearning.component';
 
 
 const routes: Routes = [
+  {path:'education-and-elearning',component:EducationAndElearningComponent},
   {path:'travel-and-tourism',component:TravelAndTourismComponent},
   { path: 'banking-and-finance', component: BankingAndFinanceComponent },
   { path: 'logistics-and-transportation', component: LogisticsAndTransportationComponent },
