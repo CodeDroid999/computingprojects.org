@@ -36,6 +36,7 @@ import { HealthcareComponent } from './components/healthcare/healthcare.componen
 import { ManufacturingComponent } from './components/manufacturing/manufacturing.component';
 import { BankingAndFinanceComponent } from './components/banking-and-finance/banking-and-finance.component';
 import { MediaAndEntertainmentComponent } from './components/media-and-entertainment/media-and-entertainment.component';
+import { RealEstateComponent } from './components/real-estate/real-estate.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { MediaAndEntertainmentComponent } from './components/media-and-entertain
     HealthcareComponent,
     ManufacturingComponent,
     BankingAndFinanceComponent,
-    MediaAndEntertainmentComponent
+    MediaAndEntertainmentComponent,
+    RealEstateComponent
   ],
   imports: [
     BrowserModule,
