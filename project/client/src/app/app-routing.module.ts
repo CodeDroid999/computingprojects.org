@@ -18,9 +18,11 @@ import { BigDataComponent } from './components/big-data/big-data.component';
 import { InternetOfThingsComponent } from './components/internet-of-things/internet-of-things.component';
 import { BlockchainComponent } from './components/blockchain/blockchain.component';
 import { ArtificialIntelligenceComponent } from './components/artificial-intelligence/artificial-intelligence.component';
+import { CloudComputingComponent } from './components/cloud-computing/cloud-computing.component';
 
 
 const routes: Routes = [
+  {path:'cloud-computing', component:CloudComputingComponent},
   { path: 'artificial-intelligence', component: ArtificialIntelligenceComponent },
   { path: 'blockchain', component: BlockchainComponent },
   { path: 'internet-of-things', component: InternetOfThingsComponent },
