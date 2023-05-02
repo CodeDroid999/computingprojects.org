@@ -29,6 +29,7 @@ import { QualityAssuranceComponent } from './components/quality-assurance/qualit
 import { BigDataComponent } from './components/big-data/big-data.component';
 import { InternetOfThingsComponent } from './components/internet-of-things/internet-of-things.component';
 import { BlockchainComponent } from './components/blockchain/blockchain.component';
+import { ArtificialIntelligenceComponent } from './components/artificial-intelligence/artificial-intelligence.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { BlockchainComponent } from './components/blockchain/blockchain.componen
     QualityAssuranceComponent,
     BigDataComponent,
     InternetOfThingsComponent,
-    BlockchainComponent
+    BlockchainComponent,
+    ArtificialIntelligenceComponent
   ],
   imports: [
     BrowserModule,
