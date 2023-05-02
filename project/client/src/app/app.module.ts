@@ -28,6 +28,7 @@ import { ItConsultingComponent } from './components/it-consulting/it-consulting.
 import { QualityAssuranceComponent } from './components/quality-assurance/quality-assurance.component';
 import { BigDataComponent } from './components/big-data/big-data.component';
 import { InternetOfThingsComponent } from './components/internet-of-things/internet-of-things.component';
+import { BlockchainComponent } from './components/blockchain/blockchain.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { InternetOfThingsComponent } from './components/internet-of-things/inter
     ItConsultingComponent,
     QualityAssuranceComponent,
     BigDataComponent,
-    InternetOfThingsComponent
+    InternetOfThingsComponent,
+    BlockchainComponent
   ],
   imports: [
     BrowserModule,
