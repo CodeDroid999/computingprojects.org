@@ -21,9 +21,13 @@ import { ArtificialIntelligenceComponent } from './components/artificial-intelli
 import { CloudComputingComponent } from './components/cloud-computing/cloud-computing.component';
 import { AutomotiveComponent } from './components/automotive/automotive.component';
 import { HealthcareComponent } from './components/healthcare/healthcare.component';
+import { ManufacturingComponent } from './components/manufacturing/manufacturing.component';
+import { MediaAndEntertainmentComponent } from './components/media-and-entertainment/media-and-entertainment.component';
 
 
 const routes: Routes = [
+  {path:'media-and-entertainment',component:MediaAndEntertainmentComponent},
+  {path:'manufacturing', component:ManufacturingComponent},
   {path:'healthcare', component: HealthcareComponent},
   {path:'automotive',component:AutomotiveComponent},
   {path:'cloud-computing', component:CloudComputingComponent},

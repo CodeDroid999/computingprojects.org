@@ -34,6 +34,8 @@ import { CloudComputingComponent } from './components/cloud-computing/cloud-comp
 import { AutomotiveComponent } from './components/automotive/automotive.component';
 import { HealthcareComponent } from './components/healthcare/healthcare.component';
 import { ManufacturingComponent } from './components/manufacturing/manufacturing.component';
+import { BankingAndFinanceComponent } from './components/banking-and-finance/banking-and-finance.component';
+import { MediaAndEntertainmentComponent } from './components/media-and-entertainment/media-and-entertainment.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,9 @@ import { ManufacturingComponent } from './components/manufacturing/manufacturing
     CloudComputingComponent,
     AutomotiveComponent,
     HealthcareComponent,
-    ManufacturingComponent
+    ManufacturingComponent,
+    BankingAndFinanceComponent,
+    MediaAndEntertainmentComponent
   ],
   imports: [
     BrowserModule,
