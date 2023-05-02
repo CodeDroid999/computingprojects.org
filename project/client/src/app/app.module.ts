@@ -39,6 +39,7 @@ import { MediaAndEntertainmentComponent } from './components/media-and-entertain
 import { RealEstateComponent } from './components/real-estate/real-estate.component';
 import { RetailAndCommerceComponent } from './components/retail-and-commerce/retail-and-commerce.component';
 import { LogisticsAndTransportationComponent } from './components/logistics-and-transportation/logistics-and-transportation.component';
+import { TravelAndTourismComponent } from './components/travel-and-tourism/travel-and-tourism.component';
 
 
 @NgModule({
@@ -79,7 +80,8 @@ import { LogisticsAndTransportationComponent } from './components/logistics-and-
     MediaAndEntertainmentComponent,
     RealEstateComponent,
     RetailAndCommerceComponent,
-    LogisticsAndTransportationComponent
+    LogisticsAndTransportationComponent,
+    TravelAndTourismComponent
   ],
   imports: [
     BrowserModule,

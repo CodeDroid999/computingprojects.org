@@ -26,17 +26,21 @@ import { MediaAndEntertainmentComponent } from './components/media-and-entertain
 import { RealEstateComponent } from './components/real-estate/real-estate.component';
 import { RetailAndCommerceComponent } from './components/retail-and-commerce/retail-and-commerce.component';
 import { LogisticsAndTransportationComponent } from './components/logistics-and-transportation/logistics-and-transportation.component';
+import { BankingAndFinanceComponent } from './components/banking-and-finance/banking-and-finance.component';
+import { TravelAndTourismComponent } from './components/travel-and-tourism/travel-and-tourism.component';
 
 
 const routes: Routes = [
-  {path:'logistics-and-transportation',component:LogisticsAndTransportationComponent},
-  {path:'retail-and-commerce',component:RetailAndCommerceComponent},
-  {path:'real-estate', component: RealEstateComponent},
-  {path:'media-and-entertainment',component:MediaAndEntertainmentComponent},
-  {path:'manufacturing', component:ManufacturingComponent},
-  {path:'healthcare', component: HealthcareComponent},
-  {path:'automotive',component:AutomotiveComponent},
-  {path:'cloud-computing', component:CloudComputingComponent},
+  {path:'travel-and-tourism',component:TravelAndTourismComponent},
+  { path: 'banking-and-finance', component: BankingAndFinanceComponent },
+  { path: 'logistics-and-transportation', component: LogisticsAndTransportationComponent },
+  { path: 'retail-and-commerce', component: RetailAndCommerceComponent },
+  { path: 'real-estate', component: RealEstateComponent },
+  { path: 'media-and-entertainment', component: MediaAndEntertainmentComponent },
+  { path: 'manufacturing', component: ManufacturingComponent },
+  { path: 'healthcare', component: HealthcareComponent },
+  { path: 'automotive', component: AutomotiveComponent },
+  { path: 'cloud-computing', component: CloudComputingComponent },
   { path: 'artificial-intelligence', component: ArtificialIntelligenceComponent },
   { path: 'blockchain', component: BlockchainComponent },
   { path: 'internet-of-things', component: InternetOfThingsComponent },
