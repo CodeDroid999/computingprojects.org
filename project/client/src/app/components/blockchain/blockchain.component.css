@@ -2,7 +2,9 @@ h1 {
     font-size: 5rem;
     text-transform: uppercase;
 }
-h5,h6{
+
+h5,
+h6 {
     text-transform: uppercase;
 }
 
@@ -13,10 +15,12 @@ h5,h6{
 }
 
 
-.img-bg {
-    background-repeat: no-repeat;
+img {
+    width:100%;
     position: fixed;
     z-index: -4;
+    display: block;
+    
 }
 
 header {
@@ -38,13 +42,15 @@ button:hover {
     background-color: rgb(172, 12, 12);
     color: white;
 }
-.rounded-circle{
+
+.rounded-circle {
     border: dashed gray 1px;
 }
 
-a{
+a {
     text-decoration: none;
 }
-.display-3{
+
+.display-3 {
     font-weight: 600;
 }
