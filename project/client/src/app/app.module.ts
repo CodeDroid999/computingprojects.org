@@ -32,6 +32,7 @@ import { BlockchainComponent } from './components/blockchain/blockchain.componen
 import { ArtificialIntelligenceComponent } from './components/artificial-intelligence/artificial-intelligence.component';
 import { CloudComputingComponent } from './components/cloud-computing/cloud-computing.component';
 import { AutomotiveComponent } from './components/automotive/automotive.component';
+import { HealthcareComponent } from './components/healthcare/healthcare.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { AutomotiveComponent } from './components/automotive/automotive.componen
     BlockchainComponent,
     ArtificialIntelligenceComponent,
     CloudComputingComponent,
-    AutomotiveComponent
+    AutomotiveComponent,
+    HealthcareComponent
   ],
   imports: [
     BrowserModule,
