@@ -38,6 +38,7 @@ import { BankingAndFinanceComponent } from './components/banking-and-finance/ban
 import { MediaAndEntertainmentComponent } from './components/media-and-entertainment/media-and-entertainment.component';
 import { RealEstateComponent } from './components/real-estate/real-estate.component';
 import { RetailAndCommerceComponent } from './components/retail-and-commerce/retail-and-commerce.component';
+import { LogisticsAndTransportationComponent } from './components/logistics-and-transportation/logistics-and-transportation.component';
 
 
 @NgModule({
@@ -77,7 +78,8 @@ import { RetailAndCommerceComponent } from './components/retail-and-commerce/ret
     BankingAndFinanceComponent,
     MediaAndEntertainmentComponent,
     RealEstateComponent,
-    RetailAndCommerceComponent
+    RetailAndCommerceComponent,
+    LogisticsAndTransportationComponent
   ],
   imports: [
     BrowserModule,
