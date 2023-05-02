@@ -17,6 +17,7 @@ h5,h6{
     background-repeat: no-repeat;
     position: fixed;
     z-index: -4;
+    object-fit: cover;
 }
 
 header {

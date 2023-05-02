@@ -15,8 +15,13 @@ h5,h6{
 
 .img-bg {
     background-repeat: no-repeat;
-    position: fixed;
-    z-index: -4;
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    ;
+    z-index: -10;
 }
 
 header {
