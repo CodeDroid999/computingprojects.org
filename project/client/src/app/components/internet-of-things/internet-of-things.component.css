@@ -1,26 +1,50 @@
-.background {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: absolute;
-    ;
-    z-index: -10;
-}
-h1{
+h1 {
+    font-size: 5rem;
     text-transform: uppercase;
 }
-h3{
-    color:rgba(227, 225, 225, 0.908);
+h5,h6{
+    text-transform: uppercase;
 }
-.header {
-    background: linear-gradient(to bottom, #6c6a6ac9 0%, #666666d1 100%);
+
+.line {
+    height: 5px;
+    border-width: 0;
+    background-color: rgb(137, 5, 5)
 }
-.technologies{
-    background-color: rgb(16, 16, 109);
+
+
+.img-bg {
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -4;
 }
-.badges{
-    background-color: #1b0b63;
+
+header {
+    background-color: linear-gradient(to left, #04102ccc 50%, #00000083 100%);
 }
-hr{
-    background-color: rgb(187, 31, 31);
+
+.success-matters {
+    background-color: rgb(215, 214, 214);
+}
+
+button {
+    border-radius: 24px;
+    background-color: rgb(5, 5, 75);
+    color: white;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(172, 12, 12);
+    color: white;
+}
+.rounded-circle{
+    border: dashed gray 1px;
+}
+
+a{
+    text-decoration: none;
+}
+.display-3{
+    font-weight: 600;
 }

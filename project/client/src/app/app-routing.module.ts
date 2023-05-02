@@ -15,9 +15,11 @@ import { SoftwareDevelopmentComponent } from './components/software-development/
 import { ItConsultingComponent } from './components/it-consulting/it-consulting.component';
 import { QualityAssuranceComponent } from './components/quality-assurance/quality-assurance.component';
 import { BigDataComponent } from './components/big-data/big-data.component';
+import { InternetOfThingsComponent } from './components/internet-of-things/internet-of-things.component';
 
 
 const routes: Routes = [
+  {path:'internet-of-things', component: InternetOfThingsComponent},
   {path:'big-data-and-analytics', component: BigDataComponent},
   {path:'quality-assurance', component:QualityAssuranceComponent},
   {path: 'consulting' , component:ItConsultingComponent },
