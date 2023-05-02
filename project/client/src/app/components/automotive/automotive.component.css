@@ -1,0 +1,50 @@
+h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+h5,h6{
+    text-transform: uppercase;
+}
+
+.line {
+    height: 5px;
+    border-width: 0;
+    background-color: rgb(137, 5, 5)
+}
+
+
+.img-bg {
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -4;
+}
+
+header {
+    background-color: linear-gradient(to left, #04102ccc 50%, #00000083 100%);
+}
+
+.success-matters {
+    background-color: rgb(215, 214, 214);
+}
+
+button {
+    border-radius: 24px;
+    background-color: rgb(5, 5, 75);
+    color: white;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(172, 12, 12);
+    color: white;
+}
+.rounded-circle{
+    border: dashed gray 1px;
+}
+
+a{
+    text-decoration: none;
+}
+.display-3{
+    font-weight: 600;
+}
