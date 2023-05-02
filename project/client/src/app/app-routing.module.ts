@@ -24,9 +24,11 @@ import { HealthcareComponent } from './components/healthcare/healthcare.componen
 import { ManufacturingComponent } from './components/manufacturing/manufacturing.component';
 import { MediaAndEntertainmentComponent } from './components/media-and-entertainment/media-and-entertainment.component';
 import { RealEstateComponent } from './components/real-estate/real-estate.component';
+import { RetailAndCommerceComponent } from './components/retail-and-commerce/retail-and-commerce.component';
 
 
 const routes: Routes = [
+  {path:'retail-and-commerce',component:RetailAndCommerceComponent},
   {path:'real-estate', component: RealEstateComponent},
   {path:'media-and-entertainment',component:MediaAndEntertainmentComponent},
   {path:'manufacturing', component:ManufacturingComponent},
