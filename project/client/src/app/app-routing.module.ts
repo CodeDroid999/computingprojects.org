@@ -17,9 +17,11 @@ import { QualityAssuranceComponent } from './components/quality-assurance/qualit
 import { BigDataComponent } from './components/big-data/big-data.component';
 import { InternetOfThingsComponent } from './components/internet-of-things/internet-of-things.component';
 import { BlockchainComponent } from './components/blockchain/blockchain.component';
+import { ArtificialIntelligenceComponent } from './components/artificial-intelligence/artificial-intelligence.component';
 
 
 const routes: Routes = [
+  { path: 'artificial-intelligence', component: ArtificialIntelligenceComponent },
   { path: 'blockchain', component: BlockchainComponent },
   { path: 'internet-of-things', component: InternetOfThingsComponent },
   { path: 'big-data-and-analytics', component: BigDataComponent },
