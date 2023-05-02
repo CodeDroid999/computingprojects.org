@@ -16,13 +16,15 @@ import { ItConsultingComponent } from './components/it-consulting/it-consulting.
 import { QualityAssuranceComponent } from './components/quality-assurance/quality-assurance.component';
 import { BigDataComponent } from './components/big-data/big-data.component';
 import { InternetOfThingsComponent } from './components/internet-of-things/internet-of-things.component';
+import { BlockchainComponent } from './components/blockchain/blockchain.component';
 
 
 const routes: Routes = [
-  {path:'internet-of-things', component: InternetOfThingsComponent},
-  {path:'big-data-and-analytics', component: BigDataComponent},
-  {path:'quality-assurance', component:QualityAssuranceComponent},
-  {path: 'consulting' , component:ItConsultingComponent },
+  { path: 'blockchain', component: BlockchainComponent },
+  { path: 'internet-of-things', component: InternetOfThingsComponent },
+  { path: 'big-data-and-analytics', component: BigDataComponent },
+  { path: 'quality-assurance', component: QualityAssuranceComponent },
+  { path: 'consulting', component: ItConsultingComponent },
   { path: 'software-development', component: SoftwareDevelopmentComponent },
   { path: 'mobile-app-development', component: AppDevelopmentComponent },
   { path: 'web-development', component: WebDevComponent },
