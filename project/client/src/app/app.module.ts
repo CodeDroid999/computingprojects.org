@@ -33,6 +33,7 @@ import { ArtificialIntelligenceComponent } from './components/artificial-intelli
 import { CloudComputingComponent } from './components/cloud-computing/cloud-computing.component';
 import { AutomotiveComponent } from './components/automotive/automotive.component';
 import { HealthcareComponent } from './components/healthcare/healthcare.component';
+import { ManufacturingComponent } from './components/manufacturing/manufacturing.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { HealthcareComponent } from './components/healthcare/healthcare.componen
     ArtificialIntelligenceComponent,
     CloudComputingComponent,
     AutomotiveComponent,
-    HealthcareComponent
+    HealthcareComponent,
+    ManufacturingComponent
   ],
   imports: [
     BrowserModule,
