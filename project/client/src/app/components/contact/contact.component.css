@@ -1,9 +1,27 @@
-.img-bg{
+.img-bg {
     position: absolute;
     z-index: -4;
 }
+
 .line {
     height: 5px;
     border-width: 0;
     background-color: rgb(137, 5, 5)
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-top: 2rem;
+}
+
+form {
+    justify-content: space-between;
+}
+
+select{
+    width: 100%;
+    height:100%;
+    border: solid white 1px;
+
 }
