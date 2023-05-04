@@ -262,7 +262,7 @@
 
             <div class="col-lg-7 row mr0 cols-sec">
                 <div class="col-sm-6 cols">
-                    <a  [routerLink]="['/industries']">
+                    <a [routerLink]="['/industries']">
                         <img src="https://i.postimg.cc/ZRp1Wnr9/industires.png" class="col-icon" alt="Web Development">
                         <h2> Industries </h2>
                         <div class="para"> We deploy the best in industry processes, methodologies and technology
@@ -357,16 +357,14 @@
                                 src="https://www.xicom.biz/images/brands/b1.png" alt="brand1"></h5>
                         <p class="card-text text-white text-center">SQL Republic</p>
                     </div>
-                    <div class="card-overlay">
-                        <div class="card-overlay-content p-3 pt-5">
-                            <h5 class="card-title text-white"><img src="https://www.xicom.biz/images/brands/b1.png"
-                                    alt="brand1"></h5>
-                            <p class="card-text">SQL Republic</p>
-                            <h6 class="card-text p-0 m-0">SOLRepublic is a headphone company focused on
-                                providing a
-                                better music experience through great sound producing products.
-                            </h6>
-                            <button class="btn btn-danger mt-4 pt-2" type="button">EXPLORE CASE STUDY</button>
+                    <div class="card-overlay bg-info">
+                        <div class="card-overlay-content">
+                            <h5 class="card-title text-white text-center pt-5"><img
+                                    src="https://www.xicom.biz/images/brands/b1.png" alt="brand1"></h5>
+                            <p class="card-text text-white text-center">SQL Republic</p>
+                            <a [routerLink]="['/services']">
+                                <button class="btn" type="button">EXPLORE CASE STUDY</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -386,14 +384,13 @@
                         <p class="card-text text-white text-center">CUSHMAN & <br> WAKEFIELD</p>
                     </div>
                     <div class="card-overlay bg-info h-100">
-                        <div class="card-overlay-content p-3 pt-5">
+                        <div class="card-overlay-content ">
                             <p class="card-title text-white"><img src="https://www.xicom.biz/images/brands/b2.png"
                                     alt="brand1"></p>
                             <p class="card-text">CUSHMAN & <br> WAKEFIELD</p>
-                            <p class="card-text p-0 m-0">A global leader in commercial real estate services with 52,000
-                                employees in over 400 offices and approximately 60 countries
-                            </p>
-                            <button class="btn btn-danger mt-4 pt-2" type="button">EXPLORE CASE STUDY</button>
+                                                        <a [routerLink]="['/services']">
+                                <button class="btn btn-danger mt-4 pt-2" type="button">EXPLORE CASE STUDY</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -412,16 +409,14 @@
                                 src="https://www.xicom.biz/images/brands/b3.png" alt="brand3"></h5>
                         <p class="card-text text-white text-center">KODAK</p>
                     </div>
-                    <div class="card-overlay">
-                        <div class="card-overlay-content p-3 pt-5">
+                    <div class="card-overlay bg-info">
+                        <div class="card-overlay-content ">
                             <h5 class="card-title text-white"><img src="https://www.xicom.biz/images/brands/b3.png"
                                     alt="brand1"></h5>
                             <p class="card-text">KODAK</p>
-                            <h6 class="card-text p-0 m-0">A global technology company providing industry-leading
-                                products and services for commercial print, packaging, publishing, manufacturing and
-                                entertainment.
-                            </h6>
-                            <button class="btn btn-danger mt-4 pt-2" type="button">EXPLORE CASE STUDY</button>
+                            <a [routerLink]="['/services']">
+                                <button class="btn btn-danger mt-4 pt-2" type="button">EXPLORE CASE STUDY</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -441,21 +436,21 @@
                                 src="https://www.xicom.biz/images/brands/b4.png" alt="brand4"></h5>
                         <p class="card-text text-white text-center">CNET</p>
                     </div>
-                    <div class="card-overlay">
-                        <div class="card-overlay-content p-3 pt-5">
+                    <div class="card-overlay  bg-info">
+                        <div class="card-overlay-content">
                             <h5 class="card-title text-white"><img src="https://www.xicom.biz/images/brands/b4.png"
                                     alt="brand1"></h5>
                             <p class="card-text">CNET</p>
-                            <h6 class="card-text p-0 m-0">an American media website that publishes reviews, news,
-                                articles, blogs, podcasts, and videos on technology and consumer electronics globally.
+                            <a [routerLink]="['/services']">
                                 <button class="btn btn-danger mt-4 pt-2" type="button">EXPLORE CASE STUDY</button>
-                            </h6>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <!-- Row -->
             </div>
             <!-- column  -->
+
 
         </div>
     </div>
