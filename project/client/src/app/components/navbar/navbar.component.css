@@ -75,3 +75,8 @@ button:hover{
 }.nav-link:hover{
     color:rgb(187, 12, 12);
 }
+
+.ToggleExternalContent{
+    padding-top: 5rem;
+    padding-left: 2rem;
+}

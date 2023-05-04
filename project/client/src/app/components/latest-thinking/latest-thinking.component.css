@@ -11,6 +11,7 @@ h1 {
 
 .img-bg {
     background-repeat: no-repeat;
+    min-height: 100vh;
     position: fixed;
     z-index: -4;
 }

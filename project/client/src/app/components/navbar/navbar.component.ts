@@ -6,13 +6,27 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  header_variable = false;
   @HostListener('document:scroll')
+
+
+  header_variable = false;
+
+
   scrollFunction() {
     if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 0) {
-      this.header_variable = true;
+
     } else {
       this.header_variable = false;
     }
   }
+  togglerFunction() {
+    const element = document.getElementById('toggler');
+    if (element && element.getAttribute('aria-expanded') === 'true') {
+      this.header_variable = true;
+    }
+    else {
+      this.header_variable = true;
+    }
+  }
 }
+

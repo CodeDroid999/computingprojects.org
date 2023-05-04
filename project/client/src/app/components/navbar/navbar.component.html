@@ -1,16 +1,182 @@
 <header>
+  <div class="collapse .d-none .d-lg-block .d-xl-none" id="navbarToggleExternalContent">
+    <div class="ToggleExternalContent" style="background-color: hsla(240, 87%, 25%, 0.916)">
+
+      <a class="navbar-brand nav-link" href="#" [class.brand_change]="header_variable">Computing Projects Organization</a>
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown m-1">
+          <a class="nav-link  dropdown-toggle" [routerLink]="['/services']" [queryParams]="{debug: true}"
+            data-bs-toggle="dropdown"> Services </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="['/web-development']" [queryParams]="{debug: true}"> Web
+                Development</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/mobile-app-development']" [queryParams]="{debug: true}">
+                Mobile App Development</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/software-development']" [queryParams]="{debug: true}">
+                Software Development</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/consulting']" [queryParams]="{debug: true}"> IT Consulting
+                Services</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/quality-assurance']" [queryParams]="{debug: true}"> Qulity
+                Assurance & Testing</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown m-1">
+          <a class="nav-link  dropdown-toggle" [routerLink]="['/latest-thinking']" [queryParams]="{debug: true}"
+            data-bs-toggle="dropdown"> Latest Thinking </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="['/big-data-and-analytics']" [queryParams]="{debug: true}"> Big
+                Data & Analytics</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/internet-of-things']" [queryParams]="{debug: true}"> IoT</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/blockchain']" [queryParams]="{debug: true}"> Blockchain</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/artificial-intelligence']" [queryParams]="{debug: true}">
+                Artificial Intelligence</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/cloud-computing']" [queryParams]="{debug: true}"> Cloud
+                Computing</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown m-1">
+          <a class="nav-link  dropdown-toggle" [routerLink]="['/industries']" [queryParams]="{debug: true}"
+            data-bs-toggle="dropdown"> Industries </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="['/automotive']" [queryParams]="{debug: true}"> Automotive</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/media-and-entertainment']" [queryParams]="{debug: true}">
+                Media & Entertainment</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/healthcare']" [queryParams]="{debug: true}"> Healthcare</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/manufacturing']" [queryParams]="{debug: true}">
+                Manufacturing</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/banking-and-finance']" [queryParams]="{debug: true}"> Banking
+                & Finance</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/real-estate']" [queryParams]="{debug: true}"> Real Estate</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/retail-and-commerce']" [queryParams]="{debug: true}"> Retail &
+                Commerce</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/logistics-and-transportation']" [queryParams]="{debug: true}">
+                Logistics & Transportation</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/travel-and-tourism']" [queryParams]="{debug: true}"> Travel &
+                Tourism</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/education-and-elearning']" [queryParams]="{debug: true}">
+                Education & E-Learning</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown m-1">
+          <a class="nav-link  dropdown-toggle" [routerLink]="['/solutions']" data-bs-toggle="dropdown"> Solutions </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="['/big-data-and-analytics']"> Big Data & Analytics</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/contact']"> Hire Developers</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/consulting']"> IT Outsourcing</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown m-1">
+          <a class="nav-link  dropdown-toggle" [routerLink]="['/corporate']" [queryParams]="{debug: true}"
+            data-bs-toggle="dropdown"> Corporate </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="['/industries']"> Portfolio</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/services']"> Case Studies</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['']"> Testimonials</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['']"> Blog</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['']"> Careers</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="['/contact']" [queryParams]="{debug: true}"> Contact Us</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item m-1">
+          <a class="nav-link" href="https://wa.me/+254727025050" target="blank">+254-727-025050</a>
+        </li>
+      </ul>
+      <!-- navbar-collapse.// -->
+    </div>
+  </div>
+
   <nav class="navbar navbar-expand-lg fixed-top pt-2" [class.header_change]="header_variable">
-    <div class="container-fluid"> 
+    <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="./assets/images/computing-projects-logo.png" alt="Logo" width="60" height="48"
           class="d-inline-block align-text-top">
       </a>
-      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-        aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="main_nav">
-        <a class="navbar-brand nav-link" href="#" [class.brand_change]="header_variable">Computing projects<br> Organization</a>
+        <a class="navbar-brand nav-link" href="#" [class.brand_change]="header_variable">Computing projects<br>
+          Organization</a>
         <ul class="navbar-nav">
           <li class="nav-item dropdown m-1">
             <a class="nav-link  dropdown-toggle" [routerLink]="['/services']" [queryParams]="{debug: true}"
@@ -21,122 +187,141 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/mobile-app-development']" [queryParams]="{debug: true}"> Mobile App Development</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/mobile-app-development']" [queryParams]="{debug: true}">
+                  Mobile App Development</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/software-development']" [queryParams]="{debug: true}"> Software Development</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/software-development']" [queryParams]="{debug: true}">
+                  Software Development</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item"  [routerLink]="['/consulting']" [queryParams]="{debug: true}"> IT Consulting Services</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/consulting']" [queryParams]="{debug: true}"> IT Consulting
+                  Services</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/quality-assurance']" [queryParams]="{debug: true}"> Qulity Assurance & Testing</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/quality-assurance']" [queryParams]="{debug: true}"> Qulity
+                  Assurance & Testing</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown m-1">
             <a class="nav-link  dropdown-toggle" [routerLink]="['/latest-thinking']" [queryParams]="{debug: true}"
               data-bs-toggle="dropdown"> Latest Thinking </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" [routerLink]="['/big-data-and-analytics']" [queryParams]="{debug: true}"> Big Data & Analytics</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/big-data-and-analytics']" [queryParams]="{debug: true}"> Big
+                  Data & Analytics</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item"  [routerLink]="['/internet-of-things']" [queryParams]="{debug: true}"> IoT</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/internet-of-things']" [queryParams]="{debug: true}"> IoT</a>
+              </li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/blockchain']" [queryParams]="{debug: true}"> Blockchain</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/blockchain']" [queryParams]="{debug: true}"> Blockchain</a>
+              </li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/artificial-intelligence']" [queryParams]="{debug: true}"> Artificial Intelligence</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/artificial-intelligence']" [queryParams]="{debug: true}">
+                  Artificial Intelligence</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/cloud-computing']" [queryParams]="{debug: true}"> Cloud Computing</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/cloud-computing']" [queryParams]="{debug: true}"> Cloud
+                  Computing</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown m-1">
             <a class="nav-link  dropdown-toggle" [routerLink]="['/industries']" [queryParams]="{debug: true}"
               data-bs-toggle="dropdown"> Industries </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" [routerLink]="['/automotive']" [queryParams]="{debug: true}"> Automotive</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/automotive']" [queryParams]="{debug: true}"> Automotive</a>
+              </li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/media-and-entertainment']" [queryParams]="{debug: true}"> Media & Entertainment</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/media-and-entertainment']" [queryParams]="{debug: true}">
+                  Media & Entertainment</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/healthcare']" [queryParams]="{debug: true}"> Healthcare</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/healthcare']" [queryParams]="{debug: true}"> Healthcare</a>
+              </li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/manufacturing']" [queryParams]="{debug: true}"> Manufacturing</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/manufacturing']" [queryParams]="{debug: true}">
+                  Manufacturing</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/banking-and-finance']" [queryParams]="{debug: true}"> Banking & Finance</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/banking-and-finance']" [queryParams]="{debug: true}">
+                  Banking & Finance</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/real-estate']" [queryParams]="{debug: true}"> Real Estate</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/real-estate']" [queryParams]="{debug: true}"> Real
+                  Estate</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item"[routerLink]="['/retail-and-commerce']" [queryParams]="{debug: true}"> Retail & Commerce</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/retail-and-commerce']" [queryParams]="{debug: true}"> Retail
+                  & Commerce</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/logistics-and-transportation']" [queryParams]="{debug: true}"> Logistics & Transportation</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/logistics-and-transportation']"
+                  [queryParams]="{debug: true}"> Logistics & Transportation</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/travel-and-tourism']" [queryParams]="{debug: true}"> Travel & Tourism</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/travel-and-tourism']" [queryParams]="{debug: true}"> Travel
+                  & Tourism</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/education-and-elearning']" [queryParams]="{debug: true}"> Education & E-Learning</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/education-and-elearning']" [queryParams]="{debug: true}">
+                  Education & E-Learning</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown m-1">
             <a class="nav-link  dropdown-toggle" [routerLink]="['/solutions']" data-bs-toggle="dropdown"> Solutions </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" [routerLink]="['/big-data-and-analytics']" > Big Data & Analytics</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/big-data-and-analytics']"> Big Data & Analytics</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/contact']" > Hire Developers</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/contact']"> Hire Developers</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/consulting']" > IT Outsourcing</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/consulting']"> IT Outsourcing</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown m-1">
             <a class="nav-link  dropdown-toggle" [routerLink]="['/corporate']" [queryParams]="{debug: true}"
               data-bs-toggle="dropdown"> Corporate </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" [routerLink]="['/industries']" > Portfolio</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/industries']"> Portfolio</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['/services']" > Case Studies</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/services']"> Case Studies</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['']" > Testimonials</a></li>
+              <li><a class="dropdown-item" [routerLink]="['']"> Testimonials</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['']" > Blog</a></li>
+              <li><a class="dropdown-item" [routerLink]="['']"> Blog</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" [routerLink]="['']" > Careers</a></li>
+              <li><a class="dropdown-item" [routerLink]="['']"> Careers</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -147,15 +332,18 @@
           <li class="nav-item m-1">
             <a class="nav-link" href="https://wa.me/+254727025050" target="blank">+254-727-025050</a>
           </li>
-          <form class="d-flex m-1">
-            <a [routerLink]="['/contact']" [queryParams]="{debug: true}"><button class="btn rounded-pill" type="button" [class.button_change]="header_variable"><i class="fa-solid fa-circle-o" style="color: #ffffff;"></i>GET
+          <form class=".d-none .d-lg-block .d-xl-none d-flex m-1">
+            <a [routerLink]="['/contact']" [queryParams]="{debug: true}"><button class="btn rounded-pill" type="button"
+                [class.button_change]="header_variable"><i class="fa-solid fa-circle-o" style="color: #ffffff;"></i>GET
                 A FREE ESTIMATION</button></a>
 
           </form>
         </ul>
       </div> <!-- navbar-collapse.// -->
+
     </div> <!-- container-fluid.// -->
   </nav>
 
-</header>
 
+
+</header>
