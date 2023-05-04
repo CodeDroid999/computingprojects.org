@@ -15,7 +15,9 @@
                     software and mobile applications.</h2>
 
                 <div class="d-grid d-md-block pt-1 px-3">
-                    <button class="btn rounded-pill pb-2 px-3" type="button">EXPLORE OUR WORK</button>
+                    <a [routerLink]="['/contact']">
+                        <button class="btn rounded-pill pb-2 px-3" type="button">GET A FREE ESTIMATE</button>
+                    </a>
                 </div>
             </div>
             <div class="carousel-item  pb-2 px-3">
@@ -27,7 +29,9 @@
                     we create customized solutions to help your brand connect with your target audience in meaningful
                     ways and drive business growth.</h2>
                 <div class="d-grid d-md-block pt-3 px-3">
-                    <button class="btn rounded-pill pb-2 px-3" type="button">LEARN MORE</button>
+                    <a [routerLink]="['/contact']">
+                        <button class="btn rounded-pill pb-2 px-3" type="button">GET A FREE ESTIMATE</button>
+                    </a>
                 </div>
             </div>
             <div class="carousel-item  pt-5 pb-2 px-3">
@@ -38,7 +42,9 @@
                     and industry-leading strategies to optimize digital operations and stay ahead of the competition.
                 </h2>
                 <div class="d-grid d-md-block pt-3 px-3">
-                    <button class="btn rounded-pill pb-2 px-3" type="button">GET A FREE ESTIMATE</button>
+                    <a [routerLink]="['/contact']">
+                        <button class="btn rounded-pill pb-2 px-3" type="button">GET A FREE ESTIMATE</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -67,9 +73,9 @@
                         thought leadership, and excellence in delivery. Our team of experienced professionals
                         continue to work tirelessly to exceed our clients’ expectations.
                     </h4>
-                    <div class="d-flex m-1 pt-2">
-                        <button class="btn rounded-pill" type="button">GET A FREE ESTIMATE</button>
-                    </div>
+                    <a [routerLink]="['/contact']">
+                        <button class="btn rounded-pill pb-2 px-3" type="button">GET A FREE ESTIMATE</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -93,7 +99,9 @@
                                 building cutting-edge web apps that redefine emerging market trends and creates new
                                 opportunities for your online business.</p>
                         </div>
-                        <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                        <a [routerLink]="['/web-development']">
+                            <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                        </a>
                     </div>
                 </div>
                 <div class="col">
@@ -107,7 +115,9 @@
                                 market challenges by defining, designing and building software and mobile applications
                                 tailored to meet your specific business requirements.</p>
                         </div>
-                        <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                        <a [routerLink]="['/mobile-app-development']">
+                            <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                        </a>
                     </div>
                 </div>
                 <div class="card shadow w-27">
@@ -120,7 +130,9 @@
                             will
                             turn that vision into reality.</p>
                     </div>
-                    <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                    <a [routerLink]="['/software-development']">
+                        <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                    </a>
                 </div>
 
                 <div class="col">
@@ -132,7 +144,9 @@
                                 domain expertise, skills and technology to procure world class softwares, mobile
                                 applications and other IT outsourcing solutions.</p>
                         </div>
-                        <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                        <a [routerLink]="['/it-consulting']">
+                            <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                        </a>
                     </div>
                 </div>
                 <div class="col">
@@ -144,7 +158,9 @@
                                 marketing objectives. We offer services, including search engine optimisation (SEO),
                                 pay-per-click advertising (PPC) and social media marketing.</p>
                         </div>
-                        <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                        <a [routerLink]="['/services']">
+                            <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                        </a>
                     </div>
                 </div>
                 <div class="col">
@@ -159,7 +175,9 @@
                                 support and regular backups. Our maintenance services include software updates, security
                                 patches, regular backups, and website optimisation.</p>
                         </div>
-                        <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                        <a [routerLink]="['/consulting']">
+                            <button class="btn btn-outline-success m-3" type="button">Learn more</button>
+                        </a>
                     </div>
                 </div>
 
@@ -236,13 +254,15 @@
 
                 </div>
                 <div class="d-flex m-1 pt-2">
-                    <button class="btn btn-danger" type="button">EXPLORE INDUSTRIES</button>
+                    <a [routerLink]="['/services']">
+                        <button class="btn btn-danger" type="button">EXPLORE INDUSTRIES</button>
+                    </a>
                 </div>
             </div>
 
             <div class="col-lg-7 row mr0 cols-sec">
                 <div class="col-sm-6 cols">
-                    <a href="">
+                    <a  [routerLink]="['/industries']">
                         <img src="https://i.postimg.cc/ZRp1Wnr9/industires.png" class="col-icon" alt="Web Development">
                         <h2> Industries </h2>
                         <div class="para"> We deploy the best in industry processes, methodologies and technology
@@ -265,7 +285,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6 cols">
-                    <a href="">
+                    <a [routerLink]="['/latest-thinking']">
                         <img src="https://i.postimg.cc/FHsqHxr8/latest-thinking.png" class="col-icon"
                             alt="Mobile App Development">
                         <h2> Latest Thinking </h2>

@@ -9,10 +9,13 @@
     background-color: rgb(137, 5, 5)
 }
 
-h2 {
+h3 {
     text-transform: uppercase;
     font-weight: 900;
     padding-top: 2rem;
+}
+h5{
+    color:white;
 }
 
 form {
@@ -24,4 +27,19 @@ select{
     height:100%;
     border: solid white 1px;
 
+}
+
+button{
+color:white;
+background-color: rgb(14, 14, 104);
+}
+
+button:hover{
+    color:white;
+    background-color: rgb(172, 24, 24);
+    transform: scale(1.1);
+}
+
+.contactform{
+    background-color: aliceblue;
 }

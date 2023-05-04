@@ -17,15 +17,15 @@
 
     <!-- Hero -->
 </header>
-<section class="contactform bg-secondary">
+<section class="contactform pt-5">
     <div class="p-3">
         <div class="container d-flex bg-light pt-2 pb-2">
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-sm-12 m-2">
                 <div class="container-contact100">
                     <div class="wrap-contact100">
                         <form class="d-flex-column wrap  contact100-form validate-form">
                             <div class="row">
-                                <h2 class="h2 sm" style="color: hsla(237, 62%, 24%, 0.916)"> Get in touch with us </h2>
+                                <h3 class="h2 sm" style="color: hsla(237, 62%, 24%, 0.916)"> Get in touch with us </h3>
                                 <div class="small-heading"> Please fill the contact form below and one of our
                                     representative
                                     shall get in touch with you within next 24 hours. </div>
@@ -294,10 +294,32 @@
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <input type="text" class="form-control m-2" placeholder="Company Name">
+                                        <div class="form-control m-2 select-country">
+                                            <select name="budget" class="input budget" style="margin-bottom:5px"
+                                                id="budget">
+                                                <option value="">Select Budget</option>
+                                                <option value="Less than $10,000">Less than $10,000</option>
+                                                <option value="$10,000 - $25,000">$10,000 - $25,000</option>
+                                                <option value="$25,000 - $50,000">$25,000 - $50,000</option>
+                                                <option value="$50,000 - $100,000">$50,000 - $100,000</option>
+                                                <option value="More than $100,000">More than $100,000 </option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="row d-flex">
+                                <div class="row">
+                                    <div class="col m-3">
+                                        <label class="p-2">Comments/Message <span class="text-danger">*</span></label>
+                                        <textarea name="description" class="input textarea w-100 p-2" id="description"
+                                            placeholder="Comments/Message" rows="6"></textarea>
+
+                                        <div class="error-brdr"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="w-100">
                             <div class="row d-flex pt-3">
                                 <div class="row">
                                     <div class="col d-flex align-items-center justify-content-center">
@@ -334,20 +356,42 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="container-contact100-form-btn">
-                                <button class="contact100-form-btn">
-                                    <span>
-                                        Submit
-                                        <i class="zmdi zmdi-arrow-right m-l-8"></i>
-                                    </span>
-                                </button>
+                            <div class="row d-flex">
+                                <div class="row py-4">
+                                    <div class="d-grid d-md-block px-3">
+                                        <button class="btn rounded-pill" type="button">SUBMIT INFORMATION</button>
+                                    </div>
+                                </div>
                             </div>
+
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 bg-danger"></div>
+            <div class="col-lg-4 col-sm-12 m-2 " style="background-color: hsla(215, 79%, 26%, 0.916)">
+                <!--
+                <div class=".d-none .d-lg-block .d-xl-none">
+                    <div class="row " style="background-color: hsla(215, 31%, 49%, 0.916)">
+                        <div class="">
+                            <h2 style="color: hsla(240, 14%, 97%, 0.916)"> OFFICES</h2>
+                        </div>
+                    </div>
+                    <div class="row p-3">                   
+                        <h5>5-Star, Mbuni Drive, <br>
+                            Garden City, <br>
+                            Nairobi, Kenya.<br>
+                            +254 727 025050<br>
+                        </h5>
+                        <h5>
+                            Block C ,Ushuru Pension Plaza, <br>
+                            Westlands, <br>
+                            Nairobi, Kenya.<br>
+                            +254 727 025050<br>
+                        </h5>
+                    </div>
+                </div>
+            -->
+            </div>
         </div>
     </div>
 </section>
