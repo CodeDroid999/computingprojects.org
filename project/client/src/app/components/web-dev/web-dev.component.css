@@ -24,3 +24,24 @@ h3{
 hr{
     background-color: rgb(187, 31, 31);
 }
+
+a{
+    text-decoration: none;
+}
+button {
+    border-radius: 24px;
+    background-color: rgb(5, 5, 75);
+    color: white;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(172, 12, 12);
+    color: white;
+}
+.text-left{
+    font-weight: 700;
+}
+h3{
+    color: hsla(249, 62%, 24%, 0.916);
+}
