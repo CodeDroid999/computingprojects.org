@@ -8,3 +8,9 @@
     border-width: 0;
     background-color: rgb(137, 5, 5)
 }
+a{
+    text-decoration:none;
+}
+h3{
+    color: hsla(249, 62%, 24%, 0.916);
+}
