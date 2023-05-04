@@ -14,31 +14,31 @@ export class HomeComponent {
 
   yearsinbizstop: any = setInterval(() => {
     this.yearsinbiz++;
-    if (this.yearsinbiz == 40) {
+    if (this.yearsinbiz == 10) {
       clearInterval(this.yearsinbizstop)
     }
-  }, 100)
+  }, 1000)
 
   profcountstop: any = setInterval(() => {
     this.profcount++;
-    if (this.profcount == 200) {
+    if (this.profcount == 20) {
       clearInterval(this.profcountstop)
     }
-  }, 10)
+  }, 1000)
 
   clientcountstop: any = setInterval(() => {
-    this.clientcount = this.clientcount + 10;
-    if (this.clientcount == 1500) {
+    this.clientcount++;
+    if (this.clientcount == 50) {
       clearInterval(this.clientcountstop)
     }
-  }, 1)
+  }, 1000)
 
   projectcountstop: any = setInterval(() => {
-    this.projectcount = this.projectcount + 100;
-    if (this.projectcount == 7500) {
+    this.projectcount = this.projectcount + 1;
+    if (this.projectcount == 200) {
       clearInterval(this.projectcountstop)
     }
-  }, 1)
+  }, 100)
 
   
 
