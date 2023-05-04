@@ -37,7 +37,7 @@ h5 img :hover {
 .line {
     height: 5px;
     border-width: 0;
-    background-color: rgb(137, 5, 5)
+    background-color: rgb(137, 5, 5);
 }
 
 
@@ -87,10 +87,8 @@ h2 {
     padding-top: 1rem;
 }
 
-* You can add global styles to this file,
-and also import other style files */ a,
-a:visited {
-    text-decoration: underline;
+a{
+    text-decoration: none;
 }
 
 

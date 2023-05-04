@@ -33,11 +33,8 @@ h2 {
     text-transform: uppercase;
     padding-top: 1rem;
 }
-
-* You can add global styles to this file,
-and also import other style files */ a,
 a:visited {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
