@@ -105,38 +105,38 @@
           <li class="nav-item dropdown m-1">
             <a class="nav-link  dropdown-toggle" [routerLink]="['/solutions']" data-bs-toggle="dropdown"> Solutions </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#"> Big Data & Analytics</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/big-data-and-analytics']" > Big Data & Analytics</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#"> Hire Developers</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/contact']" > Hire Developers</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#"> IT Outsourcing</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/consulting']" > IT Outsourcing</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown m-1">
             <a class="nav-link  dropdown-toggle" [routerLink]="['/corporate']" [queryParams]="{debug: true}"
               data-bs-toggle="dropdown"> Corporate </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#"> Portfolio</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/industries']" > Portfolio</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#"> Case Studies</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/services']" > Case Studies</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#"> Testimonials</a></li>
+              <li><a class="dropdown-item" [routerLink]="['']" > Testimonials</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#"> Blog</a></li>
+              <li><a class="dropdown-item" [routerLink]="['']" > Blog</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#"> Careers</a></li>
+              <li><a class="dropdown-item" [routerLink]="['']" > Careers</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
