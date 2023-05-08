@@ -10,7 +10,7 @@ export class NavbarComponent {
   @HostListener('document:scroll')
   scrollFunction() {
     if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 0) {
-
+      this.header_variable = true;
     } else {
       this.header_variable = false;
     }
