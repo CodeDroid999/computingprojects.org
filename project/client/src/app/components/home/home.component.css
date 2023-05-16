@@ -328,9 +328,10 @@ a {
 
 .transform-sec,
 .brands-section,
-.consultation-sec,
+.consultation-sec ,
+.brands-sec,
 .counter-sec {
-    background-color: #1d0566;
+    background-color: hsl(217, 74%, 27%) !important ;
     color: white;
 }
 
@@ -358,6 +359,13 @@ a {
 
     .margin-bot-35 {
         margin-bottom: 35px;
+    }
+    .halfbrand{
+        max-width:33%;
+        padding:0.5rem;
+    }
+    .case-studies{
+        display:none;
     }
 }
 
