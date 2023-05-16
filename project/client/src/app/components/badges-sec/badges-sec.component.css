@@ -1,3 +1,18 @@
+
+h5{
+font-size:1rem;
+}
+.row{
+    display:flex;
+}
 .badges{
-    background-color: #1b0b63;
+        background-color: #1b0b63;
+}
+img{
+    max-width: 25%;
+}
+@media(min-width:320px) and (max-width:767px) {
+    img{
+        max-width: 50%;
+    }
 }

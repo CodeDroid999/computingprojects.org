@@ -3,7 +3,12 @@ h1 {
     text-transform: uppercase;
      padding-top: 2rem;
 }
-
+.title{
+    font-size: 4rem;
+    text-transform: uppercase;
+     padding-top: 1rem; 
+     font-weight: bold;
+}
 h5,
 h6 {
     text-transform: uppercase;
@@ -71,5 +76,11 @@ a {
     }
     .numbering-on-mobile{
         display:block;
+    }
+    .title{
+        font-size: 2rem;
+        text-transform: uppercase;
+         padding-top: 0.1rem; 
+         font-weight: bold;
     }
 }
