@@ -7,7 +7,7 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  AOS.init();
+  //AOS.init();
   //variables
   yearsinbiz: number = 0;
   profcount: number = 0;
