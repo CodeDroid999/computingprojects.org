@@ -20,6 +20,7 @@
     .navbar .nav-item .dropdown-menu {
         margin-top: 0;
     }
+   
 }
 
 
@@ -79,4 +80,7 @@ button:hover{
 .ToggleExternalContent{
     padding-top: 5rem;
     padding-left: 2rem;
+}
+.navbar-toggler{
+    margin-right:2rem;
 }
