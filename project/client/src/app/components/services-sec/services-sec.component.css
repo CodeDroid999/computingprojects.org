@@ -1,6 +1,7 @@
-a{
+a {
     text-decoration: none;
 }
+
 button {
     border-radius: 24px;
     background-color: rgb(5, 5, 75);
@@ -12,9 +13,35 @@ button:hover {
     background-color: rgb(172, 12, 12);
     color: white;
 }
-.text-left{
+
+.text-left {
     font-weight: 700;
 }
-h3{
+
+h3 {
     color: hsla(249, 62%, 24%, 0.916);
+}
+
+.container {
+    display: flex;
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    .full-on-mobile {
+        min-width: 100%;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        padding-top: 0.1rem;
+        padding-bottom:0.1rem;
+    }
+
+    .container {
+        display: block;
+    }
+    button{
+        font-size:0.7rem;
+    }
+    .para{
+        margin-bottom:2rem;
+    }
 }

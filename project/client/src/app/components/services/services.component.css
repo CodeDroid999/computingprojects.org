@@ -48,3 +48,15 @@ a{
 .display-3{
     font-weight: 600;
 }
+
+@media(min-width:320px) and (max-width:767px) {
+    .hero-title{
+        font-size: 2rem;
+    }
+    .background-image {
+        object-fit: cover;
+        width: 100%;
+        height: 25rem;
+    }
+    
+    }
