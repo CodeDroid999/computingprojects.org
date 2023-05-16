@@ -227,13 +227,7 @@ a {
         padding-bottom:0.1rem;
         padding-left:1rem;
     }
-    .counter{
-        margin-bottom: 0.1rem;
-        margin-top:0.1rem;
-        font-size:50rem;
-        border-left: solid #ebebeb 1px;
-        border-right: solid #ebebeb 1px;
-    }
+   
 }
 
 .reason {
@@ -249,25 +243,26 @@ a {
     background: #ebebeb;
 }
 
-.counter-Txt {
+.counter-TXT{
     text-align: center;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 20px;
 }
 
-.counter-Txt span {
+.counter-TXT span {
     display: block;
     font-size: 36px
 }
+
 
 @media(min-width:320px) and (max-width:767px) {
     .c-no {
         height: 100%;
     }
 
-    .counter-Txt {
+    .counter-TXT {
         margin-top: 35px;
     }
 
