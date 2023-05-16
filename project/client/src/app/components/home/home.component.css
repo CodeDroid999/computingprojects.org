@@ -134,6 +134,11 @@ hr {
     font-weight:bold; 
 }
 
+.display-5 {
+    padding-top: 1.5rem;
+    font-size:3.5rem;
+}
+
 .text-cont{
     margin-bottom:2rem;
     margin-top:2rem;
@@ -216,6 +221,19 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+    .transform-title{
+        font-size:1.5rem;
+        padding-top:0.1rem;
+        padding-bottom:0.1rem;
+        padding-left:1rem;
+    }
+    .counter{
+        margin-bottom: 0.1rem;
+        margin-top:0.1rem;
+        font-size:50rem;
+        border-left: solid #ebebeb 1px;
+        border-right: solid #ebebeb 1px;
+    }
 }
 
 .reason {
