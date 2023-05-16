@@ -1,8 +1,11 @@
 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     text-transform: uppercase;
+     padding-top: 2rem;
 }
-h5,h6{
+
+h5,
+h6 {
     text-transform: uppercase;
 }
 
@@ -26,25 +29,47 @@ header {
 .success-matters {
     background-color: rgb(215, 214, 214);
 }
-
-button {
-    border-radius: 24px;
-    background-color: rgb(5, 5, 75);
-    color: white;
-    text-transform: uppercase;
+.step-image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
 }
 
-button:hover {
-    background-color: rgb(172, 12, 12);
-    color: white;
-}
-.rounded-circle{
+.rounded-circle {
     border: dashed gray 1px;
+    max-height: 5rem;
 }
 
-a{
+a {
     text-decoration: none;
 }
-.display-3{
-    font-weight: 600;
+
+.display-3 {
+    font-weight: 500;
+}
+.numbering-on-mobile{
+    display:none;
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    span {
+        font-size: 2rem;
+        font-weight: 900;
+        padding-top:0rem;
+        padding-bottom:0rem;
+    }
+    h1 {
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+    }
+    .text-secondary{
+        font-size:1rem;
+    }
+    img{
+        display:none;
+    }
+    .numbering-on-mobile{
+        display:block;
+    }
 }
