@@ -7,10 +7,11 @@ p {
     text-transform: uppercase;
 }
 
-.card{
-    margin:0px;
-    padding:0px;
+.card {
+    margin: 0px;
+    padding: 0px;
 }
+
 .card-body img {
     height: 5rem;
 }
@@ -28,12 +29,15 @@ h5 img :hover {
     background-color: rgb(15, 16, 86);
     color: white;
 }
-.card-text{
-    color:rgb(137, 137, 137);
+
+.card-text {
+    color: rgb(137, 137, 137);
 }
-.card-tittle{
-    color:rgb(8, 12, 52);
+
+.card-tittle {
+    color: rgb(8, 12, 52);
 }
+
 .line {
     height: 5px;
     border-width: 0;
@@ -87,7 +91,7 @@ h2 {
     padding-top: 1rem;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -186,4 +190,10 @@ a{
     background-position: center center;
     background-repeat: no-repeat;
     z-index: -10;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size:2rem ;
+    }
 }
