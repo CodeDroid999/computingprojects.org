@@ -3,7 +3,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(179, 178, 178);
+    color: rgb(244, 244, 244);
 }
 
 
@@ -22,4 +22,16 @@ h2 {
 
 header {
     background-color: linear-gradient(to left, #04102ccc 50%, #00000083 100%);
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-img {
+        min-height: 35rem;
+    }
+    h1{
+        font-size:2rem;
+    }
+    h2{
+        font-size:1.5rem;
+    }
 }
