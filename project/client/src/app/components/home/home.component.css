@@ -133,6 +133,9 @@ hr {
     .counter-text{
         font-size: 0.8rem;
     }
+    .transform-title{
+        margin-top:0.4rem;
+    }
 }
 
 
