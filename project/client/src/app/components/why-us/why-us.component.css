@@ -2,9 +2,11 @@
     border: solid #e4e4e6 1px;
 
 }
-.carousel-inner{
-    height:20rem;
+
+.carousel-inner {
+    height: 20rem;
 }
+
 .carousel-item {
     height: 100vh;
     background-size: cover;
@@ -14,11 +16,21 @@
     z-index: 10;
 }
 
-.btn{
-   background-color: rgba(9, 9, 89, 0.915);
-   color:white;
+.btn {
+    background-color: rgba(9, 9, 89, 0.915);
+    color: white;
 }
-.btn:hover{
-    color:white;
+
+.btn:hover {
+    color: white;
     background-color: rgba(169, 12, 12, 0.91);
+}
+.dissapear-on-sm{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .dissapear-on-sm {
+        display: block;
+    }
 }

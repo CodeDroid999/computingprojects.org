@@ -239,11 +239,17 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-    .transform-title {
-        font-size: 1.5rem;
-        padding-top: 0.1rem;
-        padding-bottom: 0.1rem;
-        padding-left: 1rem;
+    .counter-TXT {
+        text-align: center;
+        font-size: 0.6rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 0.5rem;
+    }
+    
+    .counter-TXT span {
+        display: block;
+        font-size: 0.5rem;
     }
 
 }
