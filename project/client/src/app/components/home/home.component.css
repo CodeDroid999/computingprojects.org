@@ -95,9 +95,10 @@ hr {
 }
 
 @media only screen and (max-width: 600px) {
-    .carousel{
+    .carousel {
         max-height: 30rem;
     }
+
     .carousel-title {
         font-size: 1.8rem;
         color: rgb(251, 249, 249);
@@ -106,7 +107,8 @@ hr {
         padding-left: 1rem;
     }
 
-    h4,.carousel-subtitle {
+    h4,
+    .carousel-subtitle {
         font-size: 1rem;
         color: rgb(251, 249, 249);
         padding-bottom: 0.1rem;
@@ -120,43 +122,49 @@ hr {
         padding-top: 0.1rem;
         padding-left: 0.5rem;
     }
-    .rounded-pill{
-                font-size:0.6rem;
+
+    .rounded-pill {
+        font-size: 0.6rem;
     }
-    
+
+    .dissapear-on-small {
+        display: none;
+    }
 }
 
 
-.intro-tittle{
-    margin-right:5;
-    margin-left:5;
+.intro-tittle {
+    margin-right: 5;
+    margin-left: 5;
     /*display-5 ;*/
-    font-weight:bold; 
+    font-weight: bold;
 }
 
 .display-5 {
     padding-top: 1.5rem;
-    font-size:3.5rem;
+    font-size: 3.5rem;
 }
 
-.text-cont{
-    margin-bottom:2rem;
-    margin-top:2rem;
+.text-cont {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
-    .intro-tittle{
-        font-size:2rem;
-        padding-top:0.1rem;
-        padding-bottom:0.1rem;
-        padding-left:1rem;
+    .intro-tittle {
+        font-size: 2rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        padding-left: 1rem;
     }
-    .text-cont{
-        margin-bottom:0.5rem;
-        margin-top:0.2rem;
-        margin-left:0rem;
+
+    .text-cont {
+        margin-bottom: 0.5rem;
+        margin-top: 0.2rem;
+        margin-left: 0rem;
     }
-    .service-btn{
+
+    .service-btn {
         font-size: 0.5rem;
     }
 }
@@ -185,25 +193,29 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-    .album{
+    .album {
         padding-bottom: 500rem;
     }
-    .service-cards{
+
+    .service-cards {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .card {
-        max-width:80%;
+        max-width: 80%;
         margin-left: 2.5rem;
         background-color: #ffffff00;
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .card-title{
+
+    .card-title {
         font-size: 1rem;
     }
-    .card-text{
+
+    .card-text {
         font-size: 0.8rem;
     }
 }
@@ -221,13 +233,13 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-    .transform-title{
-        font-size:1.5rem;
-        padding-top:0.1rem;
-        padding-bottom:0.1rem;
-        padding-left:1rem;
+    .transform-title {
+        font-size: 1.5rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        padding-left: 1rem;
     }
-   
+
 }
 
 .reason {
@@ -243,7 +255,7 @@ a {
     background: #ebebeb;
 }
 
-.counter-TXT{
+.counter-TXT {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
@@ -328,10 +340,10 @@ a {
 
 .transform-sec,
 .brands-section,
-.consultation-sec ,
+.consultation-sec,
 .brands-sec,
 .counter-sec {
-    background-color: hsl(217, 74%, 27%) !important ;
+    background-color: hsl(217, 74%, 27%) !important;
     color: white;
 }
 
@@ -360,12 +372,14 @@ a {
     .margin-bot-35 {
         margin-bottom: 35px;
     }
-    .halfbrand{
-        max-width:33%;
-        padding:0.5rem;
+
+    .halfbrand {
+        max-width: 33%;
+        padding: 0.5rem;
     }
-    .case-studies{
-        display:none;
+
+    .case-studies {
+        display: none;
     }
 }
 
