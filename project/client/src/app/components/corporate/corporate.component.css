@@ -14,3 +14,14 @@ a{
 h3{
     color: hsla(249, 62%, 24%, 0.916);
 }
+@media only screen and (max-width: 600px) {
+    .bg-img {
+        min-height: 35rem;
+    }
+    h1{
+        font-size:2rem;
+    }
+    h2{
+        font-size:1.5rem;
+    }
+}

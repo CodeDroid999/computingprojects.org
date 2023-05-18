@@ -6,28 +6,35 @@
     ;
     z-index: -10;
 }
-h1{
+
+h1 {
     text-transform: uppercase;
 }
-h3{
-    color:rgba(227, 225, 225, 0.908);
+
+h3 {
+    color: rgba(227, 225, 225, 0.908);
 }
+
 .header {
     background: linear-gradient(to bottom, #6c6a6ac9 0%, #666666d1 100%);
 }
-.technologies{
+
+.technologies {
     background-color: rgb(16, 16, 109);
 }
-.badges{
+
+.badges {
     background-color: #1b0b63;
 }
-hr{
+
+hr {
     background-color: rgb(187, 31, 31);
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 button {
     border-radius: 24px;
     background-color: rgb(5, 5, 75);
@@ -39,12 +46,15 @@ button:hover {
     background-color: rgb(172, 12, 12);
     color: white;
 }
-.text-left{
+
+.text-left {
     font-weight: 700;
 }
-h3{
+
+h3 {
     color: hsla(249, 62%, 24%, 0.916);
 }
+
 .card-overlay {
     position: absolute;
     top: 0;
@@ -74,4 +84,48 @@ h3{
     width: 100%;
     height: 15vw;
     object-fit: cover;
+}
+
+.listLink-mobile-none {
+    display: flex;
+}
+
+.listLink-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-img {
+        min-height: 35rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .left-content {
+        min-width: 100%;
+    }
+
+    .listLink-mobile {
+        display: block;
+        margin:1rem 1rem 1rem 1rem;
+    }
+
+    .listLink-mobile-none {
+        display: none;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+    h1 span{
+        font-size:1rem;
+    }
+   
 }

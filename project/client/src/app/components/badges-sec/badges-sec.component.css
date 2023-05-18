@@ -11,8 +11,39 @@ font-size:1rem;
 img{
     max-width: 25%;
 }
-@media(min-width:320px) and (max-width:767px) {
-    img{
-        max-width: 50%;
+
+@media only screen and (max-width: 600px) {
+    .bg-img {
+        min-height: 35rem;
     }
+
+    h5{
+        font-size: 0.7rem;
+    }
+
+    h6{
+        font-size: 0.6rem;
+        margin-top: 0.5rem;
+    }
+
+    .left-content {
+        min-width: 100%;
+    }
+
+    .listLink-mobile {
+        display: block;
+        margin:1rem 1rem 1rem 1rem;
+    }
+
+    .listLink-mobile-none {
+        display: none;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+    h1 span{
+        font-size:1rem;
+    }
+   
 }
