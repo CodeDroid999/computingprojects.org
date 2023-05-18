@@ -130,6 +130,9 @@ hr {
     .dissapear-on-small {
         display: none;
     }
+    .counter-text{
+        font-size: 0.8rem;
+    }
 }
 
 
