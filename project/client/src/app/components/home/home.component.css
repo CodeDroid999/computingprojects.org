@@ -99,7 +99,7 @@ hr {
         max-height: 30rem;
     }
 
-    .carousel-title {
+.carousel-title {
         font-size: 1.8rem;
         color: rgb(251, 249, 249);
         padding-bottom: 0.1rem;
@@ -157,8 +157,8 @@ hr {
 }
 
 @media only screen and (max-width: 600px) {
-    .intro-tittle {
-        font-size: 2rem;
+    .transform-title,.intro-tittle {
+        font-size: 1.7rem;
         padding-top: 0.1rem;
         padding-bottom: 0.1rem;
         padding-left: 1rem;
