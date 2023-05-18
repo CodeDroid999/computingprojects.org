@@ -8,7 +8,7 @@ p {
 }
 
 .card {
-    margin: 0px;
+    margin-right: 0.1rem;
     padding: 0px;
 }
 
@@ -191,9 +191,23 @@ a {
     background-repeat: no-repeat;
     z-index: -10;
 }
+.cardbody img{
+    padding:0.5rem;
+}
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size:2rem ;
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+    h5{
+        font-size: 1.2;
+    }
+    .card{
+padding-top:0.2rem;
+        margin-top:0.1rem;
     }
 }
