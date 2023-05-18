@@ -96,7 +96,7 @@ hr {
 
 @media only screen and (max-width: 600px) {
     .carousel{
-        max-height: 27rem;
+        max-height: 30rem;
     }
     .carousel-title {
         font-size: 1.8rem;
