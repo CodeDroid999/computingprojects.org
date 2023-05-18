@@ -41,6 +41,7 @@ import { RetailAndCommerceComponent } from './components/retail-and-commerce/ret
 import { LogisticsAndTransportationComponent } from './components/logistics-and-transportation/logistics-and-transportation.component';
 import { TravelAndTourismComponent } from './components/travel-and-tourism/travel-and-tourism.component';
 import { EducationAndElearningComponent } from './components/education-and-elearning/education-and-elearning.component';
+import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.component';
 
 
 
@@ -85,6 +86,7 @@ import { EducationAndElearningComponent } from './components/education-and-elear
     LogisticsAndTransportationComponent,
     TravelAndTourismComponent,
     EducationAndElearningComponent,
+    ScrollToTopComponent,
     
   ],
   imports: [
