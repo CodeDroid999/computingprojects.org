@@ -1,17 +1,30 @@
-.footernav a, .rowfull a, .phone-contact a{
+.footernav a,
+.rowfull a,
+.phone-contact a {
     text-decoration: none !important;
     padding-top: 1em;
     color: gray;
 }
-.mobile-show{
-    display:none;
+
+.mobile-show {
+    display: none;
 }
 
 @media(min-width:320px) and (max-width:767px) {
-    .services,.solutions,.latest-thinking,.corporate{
-        display:none  !important;
+
+    .services,
+    .solutions,
+    .latest-thinking,
+    .corporate {
+        display: none !important;
     }
-    .mobile-show{
-        display:block;
+
+    .mobile-show {
+        display: block;
     }
+
+    p {
+        font-size: 1rem;
+    }
+
 }
